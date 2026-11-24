@@ -1,0 +1,1309 @@
+--------- beginning of main
+11-24 07:08:54.300 28229 28229 D WM-ListenableWorkerImpl: Binding to com.google.android.googlequicksearchbox, com.google.android.libraries.search.integrations.tiktok.RemoteWorkerService_googleapp
+11-24 07:08:54.300  8112  8112 I HBD     : c TMST - update statistics 
+11-24 07:08:54.301  8112  8112 I HBD     : d [PF_OP][updateKeyboardViewHolder]  13 ms 
+11-24 07:08:54.301  8112  8112 I HBD     : a sendAction action : 13 / modified action : 13 
+11-24 07:08:54.301  8112  8112 I HBD     : b execute visibility=false 
+11-24 07:08:54.301 28229 28253 D WM-Processor: Work WorkGenerationalId(workSpecId=39fe8958-d1a1-4270-bdd3-f3de3527c693, generation=0) is already enqueued for processing
+11-24 07:08:54.302  3332  4375 D SecContentProvider: query(), uri = 15 selection = isClipboardShareAllowedAsUser
+--------- beginning of system
+11-24 07:08:54.302  3332  4375 D SecContentProvider: called from android.uid.honeyboard:10180
+11-24 07:08:54.302  3332  4375 D RestrictionPolicy: isClipboardShareAllowed : true
+11-24 07:08:54.303  3332  7132 D SecContentProvider: query(), uri = 15 selection = isClipboardAllowedAsUser
+11-24 07:08:54.303  3332  7132 D SecContentProvider: called from android.uid.honeyboard:10180
+11-24 07:08:54.303  3332  7132 D RestrictionPolicy: isClipboardAllowed : true
+11-24 07:08:54.303  3332  7132 D SecContentProvider: SemKnoxPolicyContract.RestrictionPolicy.CLIPBOARD_ALLOWED_AS_USER return = true
+11-24 07:08:54.303  8112  8112 I HBD     : d [SuggestedReplies] onBind nudge null / replies null
+11-24 07:08:54.306 18612 18612 I WM-RemoteWorkerService: Binding to RemoteWorkerService
+11-24 07:08:54.307  8112  8112 I HBD     : f [PF_OP][onStartInputViewActivate]  0 ms 
+11-24 07:08:54.307  8112  8112 I HBD     : MultiModal MultiModalSwitcher onStartInputView 
+11-24 07:08:54.307 28229 28229 D WM-ListenableWorkerImpl: Service connected
+11-24 07:08:54.307  8112  8112 I HBD     : [KeysCafeStatistics] a isPersonalDataCollectable true 
+11-24 07:08:54.309 18612 13341 D WM-ListenableWorkerImpl: Executing work request (39fe8958-d1a1-4270-bdd3-f3de3527c693, com.google.apps.tiktok.contrib.work.TikTokListenableWorker)
+11-24 07:08:54.309  8112  8112 I HBD     : HoneyBoardService [PF_OP][onStartInputView]  41 ms 
+11-24 07:08:54.310  3332  4375 V InputMethodManagerService: IME window vis: 3 active: 1 visible: 2 displayId: 0
+11-24 07:08:54.310  3332  4375 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+11-24 07:08:54.310  3332  4375 I InputMethodManagerService: setImeWindowStatus: vis=3, backDisposition=0
+11-24 07:08:54.310  5001  5001 D NavigationBar: setImeWindowStatus displayId=0 vis=3 backDisposition=0 showImeSwitcherButton=false isImeVisible=true
+11-24 07:08:54.310  5001  5001 D Navbar.Store: handleEvent(0) OnNavBarIconHintChanged(iconHint=3) [Module] NavigationBar
+11-24 07:08:54.310  5001  5001 D Navbar.Store: --[Band]SETUPWIZARD_PACK_SET_NAVBAR_ICON_HINT
+11-24 07:08:54.310  5001  5001 D Navbar.Store: --[Band]VIS_PACK_REEVAULATE_NAVBAR
+11-24 07:08:54.310  5001  5001 D Navbar.Store: ----apply(0) NavBarStoreAction$ReevaluateNavBar
+11-24 07:08:54.311  5001  5001 D NavBarView: disableBack=true (isBackDismissIme=true, handlingGestures=true, disabledFlagBack=false, isBottomGesture=false, isImeRenderingNavButtons=true, touchProtectionShown=false)
+11-24 07:08:54.311  3332 14631 I SemInputMotionHelper: setMotionControl: ALL: 11, client=com.samsung.android.hardware.secinputdev.SemInputDeviceManager, ret=-1
+11-24 07:08:54.311  3332 14631 D SemInputDeviceManager: setProperty: (100) CMD,SIP,1
+11-24 07:08:54.311  3332 14632 D SemInputDeviceManager: setProperty: (0) CMD,GRIP_DATA,1,24,32,10,1956,32,2588
+11-24 07:08:54.311  5001  5001 D Navbar.Store: handleEvent(0) OnSetGestureHintVisibility(recentVisible=true, homeVisible=false, backVisible=true) [Module] SamsungNavigationBarView
+11-24 07:08:54.311  5001  5001 D Navbar.Store: --[Band]GESTURE_PACK_SET_HINT_VISIBILITY
+11-24 07:08:54.311  5001  5001 D Navbar.Store: --[Band]PLUGIN_PACK_RUN_PLUGIN_ACTIONS
+11-24 07:08:54.311  5001  5001 D Navbar.Store: --[Band] (afterAction) GESTURE_PACK_SET_HINT_VISIBILITY
+11-24 07:08:54.311 11802 11802 I SGPService: Keyboard/IME statechanged. old=false, vis=true
+11-24 07:08:54.311  5001  5001 D Navbar.Store: ----apply(0) NavBarStoreAction$UpdateGestureHintVisibility
+11-24 07:08:54.311  5001  5001 D NavBarStateManager: NavBarStates(0) canShowGestureHint: false
+11-24 07:08:54.311  5001  5001 D Navbar.Store: --[Band] (afterAction) PLUGIN_PACK_RUN_PLUGIN_ACTIONS
+11-24 07:08:54.311  3332 14632 D TspStateManager: wrote command: cmd=1,24,32,10,1956,32,2588, type=1
+11-24 07:08:54.311  5001  5001 D NavBarStateManager: NavBarStates(0) supportLargeCoverScreenNavBar: false
+11-24 07:08:54.311  5001  5001 D NavBarStateManager: NavBarStates(0) canShowKeyboardButtonForRotation(0): false
+11-24 07:08:54.312  8112  8112 I HBD     : HoneyBoardService onWindowShown 
+11-24 07:08:54.312  3332  3910 D SemInputDevice:TSP: SetPropertyTask: CMD,set_grip_data,1,24,32,10,1956,32,2588 [11-24 07:08:54.311]
+11-24 07:08:54.312  5001  5001 D Navbar.Store: handleEvent(0) OnUpdateSysUiStateFlag(noArguments=true) [Module] SamsungNavigationBarView
+11-24 07:08:54.312  5001  5001 D Navbar.Store: --[Band]GESTURE_PACK_UPDATE_SYSTEMUI_STATE_FLAG
+11-24 07:08:54.312  5001  5001 D Navbar.Store: --[Band] (afterAction) GESTURE_PACK_UPDATE_SYSTEMUI_STATE_FLAG
+11-24 07:08:54.312  5001  5001 D NavBarStateManager: NavBarStates(0) isGameMode: false
+11-24 07:08:54.312  5001  5001 D Navbar.Store: ----apply(0) NavBarStoreAction$UpdateSysUiFlags
+11-24 07:08:54.312  5001  5001 D Navbar.Store: ----set 70368744177664 : false
+11-24 07:08:54.312  5001  5001 D Navbar.Store: ----set 4398046511104 : false
+11-24 07:08:54.312  8112  8112 I HBD     : MultiModal MultiModalSwitcher onWindowShown 
+11-24 07:08:54.312  3332 14631 I SemInputCommandService: setPropertyAllTouch: SIP,1 retDefault=1 retExtra=-2
+11-24 07:08:54.312  3332 14631 D TspStateManager: wrote command: cmd=1, type=5
+11-24 07:08:54.312  1960  1960 I sysinput:Touch: writeInformation:249, OK
+11-24 07:08:54.312  3332  3910 D SysinputHAL_V1_3(V1_2): runTspCmdNoRead(TSP(1)): set_grip_data,1,24,32,10,1956,32,2588 ret=0
+11-24 07:08:54.312  5284  5284 I HoneySpace.SystemUiRepository: systemUiFlags: home_disabled|allow_gesture|ime_visible|awake|back_dismiss_ime
+11-24 07:08:54.312  3332  3910 D SemInputDevice:TSP: SetPropertyTask: CMD,set_sip_mode,1 [11-24 07:08:54.311]
+11-24 07:08:54.312  8112  8112 I HBD     : a color = [r : 0], [g : 0], [b : 0], [alpha : 255], rgb = -16777216, isDark = true 
+11-24 07:08:54.313  1960  1960 I sysinput:Touch: writeInformation:249, OK
+11-24 07:08:54.313  8112  8112 I HBD     : a color = [r : 0], [g : 0], [b : 0], [alpha : 255], rgb = -16777216, isDark = true 
+11-24 07:08:54.313  3332  3910 D SysinputHAL_V1_3(V1_2): runTspCmdNoRead(TSP(1)): set_sip_mode,1 ret=0
+11-24 07:08:54.313  7602 14633 I n2      : limitCPUFreq:: freq = -1
+11-24 07:08:54.313  8112  8112 I HBD     : HoneyBoardService [PF_OP][onWindowShown]  1 ms 
+11-24 07:08:54.313  1900  2053 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 28921818
+11-24 07:08:54.314  8112  8112 I HBD     : [DirectWriting] DirectWriting emitInputConnection : RemoteInputConnection{idHash=#f2f6404} 
+11-24 07:08:54.320  5001  5001 D NavBarStateManager: NavBarStates(0) supportLargeCoverScreenNavBar: false
+11-24 07:08:54.320  5001  5001 D NavBarStateManager: NavBarStates(0) canShowKeyboardButtonForRotation(0): false
+11-24 07:08:54.320  5001  5001 D NavBarStateManager: NavBarStates(0) canUseNavBarBackgroundFrame: true
+11-24 07:08:54.320  4233  4233 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): ImeOnBackInvokedCallback@188629314 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@be02ce7
+11-24 07:08:54.321 18612 18713 E farh    : (REDACTED) WorkManager failure in operation: %s, worker tag: %s
+11-24 07:08:54.321 18612 18713 E farh    : java.util.concurrent.ExecutionException: gbcx: Account was no longer valid when task executed.
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnit.g(PG:21)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gniu.r(PG:24)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnit.get(PG:1)
+11-24 07:08:54.321 18612 18713 E farh    : 	at hgbt.s(PG:2)
+11-24 07:08:54.321 18612 18713 E farh    : 	at farg.call(PG:18)
+11-24 07:08:54.321 18612 18713 E farh    : 	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+11-24 07:08:54.321 18612 18713 E farh    : 	at dspn.run(PG:5)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gmey.run(PG:46)
+11-24 07:08:54.321 18612 18713 E farh    : 	at dsoz.run(PG:81)
+11-24 07:08:54.321 18612 18713 E farh    : 	at java.lang.Thread.run(Thread.java:1571)
+11-24 07:08:54.321 18612 18713 E farh    : 	at dsqt.run(PG:63)
+11-24 07:08:54.321 18612 18713 E farh    : Caused by: gbcx: Account was no longer valid when task executed.
+11-24 07:08:54.321 18612 18713 E farh    : 	at gbdj.apply(PG:5)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gcvi.apply(PG:17)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gniq.c(PG:3)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnis.run(PG:135)
+11-24 07:08:54.321 18612 18713 E farh    : 	... 5 more
+11-24 07:08:54.321 18612 18713 E farh    : Caused by: gamc: gahz: emao: Selected account doesn't match the primary account
+11-24 07:08:54.321 18612 18713 E farh    : 	at gahd.apply(PG:29)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gcvn.apply(PG:17)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnir.c(PG:3)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnis.run(PG:135)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnkp.execute(PG:1)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnit.d(PG:1)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnit.addListener(PG:41)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnis.e(PG:10)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gaij.i(PG:35)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gaij.h(PG:12)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gakh.b(PG:3)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gbdn.e(PG:24)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gbdi.a(PG:7)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gcvh.a(PG:17)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gcvh.a(PG:17)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnmu.a(PG:3)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnmb.run(PG:18)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnmw.run(PG:5)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gcnr.a(PG:108)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gbej.b(PG:56)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gbdn.b(PG:76)
+11-24 07:08:54.321 18612 18713 E farh    : 	at com.google.apps.tiktok.contrib.work.TikTokListenableWorker.d(PG:130)
+11-24 07:08:54.321 18612 18713 E farh    : 	at taq.invokeSuspend(PG:52)
+11-24 07:08:54.321 18612 18713 E farh    : 	at hitl.resumeWith(PG:11)
+11-24 07:08:54.321 18612 18713 E farh    : 	at hjdu.run(PG:115)
+11-24 07:08:54.321 18612 18713 E farh    : 	at android.os.Handler.handleCallback(Handler.java:1095)
+11-24 07:08:54.321 18612 18713 E farh    : 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+11-24 07:08:54.321 18612 18713 E farh    : 	at android.os.Handler.dispatchMessage(Handler.java:125)
+11-24 07:08:54.321 18612 18713 E farh    : 	at android.os.Looper.loopOnce(Looper.java:321)
+11-24 07:08:54.321 18612 18713 E farh    : 	at android.os.Looper.loop(Looper.java:422)
+11-24 07:08:54.321 18612 18713 E farh    : 	at android.app.ActivityThread.main(ActivityThread.java:10616)
+11-24 07:08:54.321 18612 18713 E farh    : 	at java.lang.reflect.Method.invoke(Native Method)
+11-24 07:08:54.321 18612 18713 E farh    : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:635)
+11-24 07:08:54.321 18612 18713 E farh    : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:982)
+11-24 07:08:54.321 18612 18713 E farh    : Caused by: gahz: emao: Selected account doesn't match the primary account
+11-24 07:08:54.321 18612 18713 E farh    : 	at emaq.a(PG:8)
+11-24 07:08:54.321 18612 18713 E farh    : 	at emau.a(PG:82)
+11-24 07:08:54.321 18612 18713 E farh    : 	at emat.invokeSuspend(PG:43)
+11-24 07:08:54.321 18612 18713 E farh    : 	at emat.invoke(PG:34)
+11-24 07:08:54.321 18612 18713 E farh    : 	at hjdh.h(PG:32)
+11-24 07:08:54.321 18612 18713 E farh    : 	at hjpg.d(PG:13)
+11-24 07:08:54.321 18612 18713 E farh    : 	at hjpg.e(PG:12)
+11-24 07:08:54.321 18612 18713 E farh    : 	at emau.b(PG:34)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gaiy.a(PG:11)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gajx.a(PG:26)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gajb.apply(PG:54)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gcvi.apply(PG:17)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gniy.c(PG:3)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnja.run(PG:45)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnkp.execute(PG:1)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnit.d(PG:1)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gnit.addListener(PG:41)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gaij.d(PG:51)
+11-24 07:08:54.321 18612 18713 E farh    : 	at gaij.i(PG:17)
+11-24 07:08:54.321 18612 18713 E farh    : 	... 25 more
+11-24 07:08:54.321 18612 18713 E farh    : Caused by: emao: Selected account doesn't match the primary account
+11-24 07:08:54.321 18612 18713 E farh    : 	at emaq.a(PG:5)
+11-24 07:08:54.321 18612 18713 E farh    : 	... 43 more
+11-24 07:08:54.322  3332  4375 D CoreBackPreview: Window{5d4acee u0 in.sunilpaulmathew.ashell/in.sunilpaulmathew.ashell.activities.aShellActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@339c430, mPriority=0, mIsAnimationCallback=true, mOverrideBehavior=0}
+11-24 07:08:54.330  2035  5012 I SurfaceFlinger: id=3702 createSurf, flag=4c000, VRI-InputMethod$_8112#3702
+11-24 07:08:54.332  3332  4375 I WindowManager: Relayout Window{263b3cf u0 InputMethod}: viewVisibility=0 req=1440x2963 ty=2011 d0
+11-24 07:08:54.332  8112  8112 I Surface : Creating surface for consumer unnamed-8112-68 with slotExpansion=1 for 64 slots
+11-24 07:08:54.332  3332  4375 D WindowManager: setClientSurface Surface(name=VRI-InputMethod$_8112#3702)/@0x67f58a9 for 263b3cf InputMethod
+11-24 07:08:54.332  8112  8112 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+11-24 07:08:54.332  8112  8112 I BufferQueueProducer: [](id:1fb000000044,api:0,p:-36904128,c:8112) setDequeueTimeout:2077252342
+11-24 07:08:54.333  3332  4375 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3696)/@0xeb53357
+11-24 07:08:54.333  3332  4375 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{33cd708 type=2019 android.os.BinderProxy@b4b86fa}#79)/@0x3c7150f, destroy=false, surface=Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e
+11-24 07:08:54.333  8112  8112 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[InputMethod]@6c333d9 mNativeObject= 0xb400007d964ce800 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3909 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 android.view.Choreographer.doFrame:1393 android.view.Choreographer$FrameDisplayEventReceiver.run:1957 
+11-24 07:08:54.333  8112  8112 I BLASTBufferQueue_Java: update, w= 1440 h= 2963 mName = VRI[InputMethod]@6c333d9 mNativeObject= 0xb400007d964ce800 sc.mNativeObject= 0xb400007cf0b5ef00 format= -2 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3914 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+11-24 07:08:54.333  3332  4375 I WindowManager: Reparenting to leash, surface=Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e, leashParent=Surface(name=WindowToken{33cd708 type=2019 android.os.BinderProxy@b4b86fa}#79)/@0x3c7150f
+11-24 07:08:54.333  2035  4273 I SurfaceFlinger: id=3703 createSurf, flag=24000, Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3703
+11-24 07:08:54.333  8112  8112 I Surface : Creating surface for consumer VRI[InputMethod]@6c333d9#68(BLAST Consumer)68 with slotExpansion=1 for 64 slots
+11-24 07:08:54.333  8112  8112 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+11-24 07:08:54.333  8112  8112 I VRI[InputMethod]@6c333d9: Relayout returned: old=(0,125,1440,3088) new=(0,125,1440,3088) relayoutAsync=true req=(1440,2963)0 dur=1 res=0x3 s={true 0xb400007cf0b9e000} ch=true seqId=2 syncSeqId=0
+11-24 07:08:54.333  3332  4375 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3703)/@0x65f1dcf
+11-24 07:08:54.334  3332  4375 D InsetsSourceProvider: updateControlForTarget: control=InsetsSourceControl: {b6bd0001 mType=navigationBars initiallyVisible mSurfacePosition=Point(0, 2944) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0} mLeash=Surface(name=Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3703)/@0x65f1dcf}, target=ShowingPermanentControlTarget, from=com.android.server.wm.InsetsStateController.onControlTargetChanged:81 com.android.server.wm.InsetsPolicy.updateBarControlTarget:263 com.android.server.wm.DisplayPolicy.updateSystemBarAttributes:452 com.android.server.wm.DisplayPolicy.finishPostLayoutPolicyLw:16 com.android.server.wm.RootWindowContainer.applySurfaceChangesTransaction$1:223 
+11-24 07:08:54.335  3332  4375 I WindowManager: Relayout hash=263b3cf, pid=0, syncId=-1: mAttrs={(0,0)(fillxfill) gr=BOTTOM CENTER_VERTICAL sim={adjust=resize} ty=INPUT_METHOD fmt=TRANSPARENT wanim=0x7f140211 preferredMinDisplayRefreshRate=60.0 receive insets ignoring z-order
+11-24 07:08:54.335  3332  4375 I WindowManager:   fl=81800108
+11-24 07:08:54.335  3332  4375 I WindowManager:   pfl=10000800
+11-24 07:08:54.335  3332  4375 I WindowManager:   bhv=1
+11-24 07:08:54.335  3332  4375 I WindowManager:   fitTypes=3
+11-24 07:08:54.335  3332  4375 I WindowManager:   fitSides=7
+11-24 07:08:54.335  3332  4375 I WindowManager:   fitIgnoreVis
+11-24 07:08:54.335  3332  4375 I WindowManager:   frameRateBoostOnTouch=true
+11-24 07:08:54.335  3332  4375 I WindowManager:   dvrrWindowFrameRateHint=true
+11-24 07:08:54.335  3332  4375 I WindowManager:  dimAmount=0.18 dimDuration=150 naviIconColor=0}
+11-24 07:08:54.336  2035  2035 I SurfaceFlinger: [VRI-InputMethod$_8112#3702] attach to parent OffscreenRoot
+11-24 07:08:54.336  2035  2035 I SurfaceFlinger: [Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3703] attach to parent LayerHierarchy{RequestedLayerState{WindowToken{33cd708 type=2019 android.os.BinderProxy@b4b86fa}#79 parentId=22} 2 children}
+11-24 07:08:54.336  3332  3435 I SurfaceComposerClient: apply reparent: [3702->145] [80->3703] [3696->-1] 
+11-24 07:08:54.337  4233  4233 D AutofillManager: view not autofillable - not passing ime action check
+11-24 07:08:54.341  8112  8112 I SemTspStateManager: setDeadZone() v2=null, v3=2.2%,0.69%,63.34%,2.22%,83.81%,0.69%,1.67%
+11-24 07:08:54.341  8112  8112 I HBD     : b Set dead zone & edge zone for SamsungIME deadzone_v3 :  2.2%,0.69%,63.34%,2.22%,83.81%,0.69%,1.67%
+11-24 07:08:54.341  3332  4375 D WindowManager: setInsetsWindow Window{263b3cf u0 InputMethod}, contentInsets=Rect(0, 1831 - 0, 0) -> Rect(0, 1831 - 0, 0), visibleInsets=Rect(0, 1831 - 0, 0) -> Rect(0, 1831 - 0, 0), touchableRegion=SkRegion((0,1831,1440,2963)) -> SkRegion((0,1831,1440,2963)), touchableInsets 3 -> 3
+11-24 07:08:54.342  7367  7367 I Routine@Core[5.1.02.9]: LaunchAppConditionChangeNotifier: isPackageIncludedInConditions: package = com.sec.android.app.launcher, conditionTag = launch_app_v3
+11-24 07:08:54.342  8112  8112 I VRI[InputMethod]@6c333d9: Creating new active sync group VRI[InputMethod]@6c333d9#39
+11-24 07:08:54.344  8112  9134 I VRI[InputMethod]@6c333d9: mWNT: t=0xb400007e0538b200 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:16715 android.view.ThreadedRenderer$1.onFrameDraw:750 <bottom of call stack> 
+11-24 07:08:54.344  8112  9134 I VRI[InputMethod]@6c333d9: Setting up sync and frameCommitCallback
+11-24 07:08:54.345 18612 18713 W gbdn    : Account Worker did not pass Account requirements and will be skipped.
+11-24 07:08:54.345 18612 18713 W gbdn    : gbcx: Account was no longer valid when task executed.
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gbdj.apply(PG:5)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gcvi.apply(PG:17)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gniq.c(PG:3)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gnis.run(PG:135)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at dspn.run(PG:5)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gmey.run(PG:46)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at dsoz.run(PG:81)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at java.lang.Thread.run(Thread.java:1571)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at dsqt.run(PG:63)
+11-24 07:08:54.345 18612 18713 W gbdn    : Caused by: gamc: gahz: emao: Selected account doesn't match the primary account
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gahd.apply(PG:29)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gcvn.apply(PG:17)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gnir.c(PG:3)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gnis.run(PG:135)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gnkp.execute(PG:1)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gnit.d(PG:1)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gnit.addListener(PG:41)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gnis.e(PG:10)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gaij.i(PG:35)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gaij.h(PG:12)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gakh.b(PG:3)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gbdn.e(PG:24)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gbdi.a(PG:7)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gcvh.a(PG:17)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gcvh.a(PG:17)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gnmu.a(PG:3)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gnmb.run(PG:18)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gnmw.run(PG:5)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gcnr.a(PG:108)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gbej.b(PG:56)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gbdn.b(PG:76)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at com.google.apps.tiktok.contrib.work.TikTokListenableWorker.d(PG:130)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at taq.invokeSuspend(PG:52)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at hitl.resumeWith(PG:11)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at hjdu.run(PG:115)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at android.os.Handler.handleCallback(Handler.java:1095)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at android.os.Handler.dispatchMessage(Handler.java:125)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at android.os.Looper.loopOnce(Looper.java:321)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at android.os.Looper.loop(Looper.java:422)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at android.app.ActivityThread.main(ActivityThread.java:10616)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at java.lang.reflect.Method.invoke(Native Method)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:635)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:982)
+11-24 07:08:54.345 18612 18713 W gbdn    : Caused by: gahz: emao: Selected account doesn't match the primary account
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at emaq.a(PG:8)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at emau.a(PG:82)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at emat.invokeSuspend(PG:43)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at emat.invoke(PG:34)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at hjdh.h(PG:32)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at hjpg.d(PG:13)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at hjpg.e(PG:12)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at emau.b(PG:34)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gaiy.a(PG:11)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gajx.a(PG:26)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gajb.apply(PG:54)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gcvi.apply(PG:17)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gniy.c(PG:3)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gnja.run(PG:45)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gnkp.execute(PG:1)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gnit.d(PG:1)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gnit.addListener(PG:41)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gaij.d(PG:51)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at gaij.i(PG:17)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	... 25 more
+11-24 07:08:54.345 18612 18713 W gbdn    : Caused by: emao: Selected account doesn't match the primary account
+11-24 07:08:54.345 18612 18713 W gbdn    : 	at emaq.a(PG:5)
+11-24 07:08:54.345 18612 18713 W gbdn    : 	... 43 more
+11-24 07:08:54.346  8112  9146 I BLASTBufferQueue: [VRI[InputMethod]@6c333d9#68](f:0,a:0,s:0) onFrameAvailable the first frame is available
+11-24 07:08:54.346  8112  9146 I SurfaceComposerClient: apply transaction with the first frame. layerId: 3702, bufferData(ID: 34840774705427, frameNumber: 1)
+11-24 07:08:54.347  8112  9146 I VRI[InputMethod]@6c333d9: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+11-24 07:08:54.347  2035  4273 I SurfaceFlinger: [VRI-InputMethod$_8112#3702] setTransactionState with the first frame. bufferData(ID: 34840774705427, frameNumber: 1)
+11-24 07:08:54.347  3332  6223 D WindowManager: finishDrawingWindow: Window{263b3cf u0 InputMethod} mDrawState=DRAW_PENDING seqId=2 mSyncSeqId=2
+11-24 07:08:54.347  8112  8112 I HBD     : c updateCandidates count=9 
+11-24 07:08:54.347  8112  8112 I HBD     : c skip updateCandidates 
+11-24 07:08:54.347  8112  8112 I HBD     : b candidateContainerVisibility=false 
+11-24 07:08:54.347 28229 28259 D RemoteListenableDelegatingWorker: Cleaning up
+11-24 07:08:54.348  3332  3435 V WindowManager: performShowLocked: mDrawState=HAS_DRAWN in Window{263b3cf u0 InputMethod}
+11-24 07:08:54.348  3332  3435 D SurfaceControl: restrictHighRefreshRate, enabled=true
+11-24 07:08:54.348  2035  4273 I SurfaceFlinger: HRR : 1
+11-24 07:08:54.348  3332  3435 D InsetsSourceProvider: updateVisibility: serverVisible=true, clientVisible=true, source=InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, controlTarget=Window{5d4acee u0 in.sunilpaulmathew.ashell/in.sunilpaulmathew.ashell.activities.aShellActivity}, from=com.android.server.wm.ImeInsetsSourceProvider.updateVisibility:6 com.android.server.wm.InsetsSourceProvider.setServerVisible:16 com.android.server.wm.ImeInsetsSourceProvider.setServerVisible:74 com.android.server.wm.InsetsSourceProvider.onPreLayout:9 com.android.server.wm.ImeInsetsSourceProvider.onPreLayout:4 com.android.server.wm.RootWindowContainer.applySurfaceChangesTransaction$1:191 com.android.server.wm.RootWindowContainer.performSurfacePlacement:60 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:162 com.android.server.wm.WindowSurfacePlacer$Traverser.run:19 android.os.Handler.handleCallback:1095 
+11-24 07:08:54.348  8112  8112 I HBD     : b candidateContainerVisibility=false 
+11-24 07:08:54.349  3332  3434 D RefreshRateModeManager: Schedule to change allowedModes=baseModeId=3 allowGroupSwitching=false primary=physical: (60.0 60.0) render:  (60.0 60.0) appRequest=physical: (60.0 60.0) render:  (60.0 60.0) idleScreenRefreshRateConfig=null workDurationsData=null, mDisplayToken=android.os.BinderProxy@186579a
+11-24 07:08:54.349  3332  3434 D RefreshRateModeManager:     -1:
+11-24 07:08:54.349  3332  3434 D RefreshRateModeManager:       PRIORITY_LOW_POWER_MODE_RENDER_RATE -> CombinedVote{ mVotes=[PhysicalVote{ RefreshRateVote{  mMinRefreshRate=0.0, mMaxRefreshRate=60.0 } }, DisableRefreshRateSwitchingVote{ mDisableRefreshRateSwitching=false }] }
+11-24 07:08:54.349  3332  3434 D RefreshRateModeManager:       PRIORITY_REFRESH_RATE_MODE -> CombinedVote{ mVotes=[PhysicalVote{ RefreshRateVote{  mMinRefreshRate=10.0, mMaxRefreshRate=60.0 } }, DisableRefreshRateSwitchingVote{ mDisableRefreshRateSwitching=false }] }
+11-24 07:08:54.349  3332  3434 D RefreshRateModeManager:     0:
+11-24 07:08:54.349  3332  3434 D RefreshRateModeManager:       PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> RenderVote{ RefreshRateVote{  mMinRefreshRate=0.0, mMaxRefreshRate=120.0 } }
+11-24 07:08:54.349  3332  3434 D RefreshRateModeManager:       PRIORITY_RESOLUTION -> SizeVote{ mWidth=1440, mHeight=3088, mMinWidth=1440, mMinHeight=3088 }
+11-24 07:08:54.349  3332  3434 D RefreshRateModeManager:       PRIORITY_USER_SETTING_PEAK_REFRESH_RATE -> CombinedVote{ mVotes=[PhysicalVote{ RefreshRateVote{  mMinRefreshRate=0.0, mMaxRefreshRate=120.0 } }, DisableRefreshRateSwitchingVote{ mDisableRefreshRateSwitching=false }] }
+11-24 07:08:54.349  3332  3434 D RefreshRateModeManager:       PRIORITY_APP_REQUEST_RENDER_FRAME_RATE_RANGE -> RenderVote{ RefreshRateVote{  mMinRefreshRate=60.0, mMaxRefreshRate=Infinity } }
+11-24 07:08:54.349  3332  3434 D RefreshRateModeManager:       PRIORITY_USER_SETTING_DISPLAY_PREFERRED_MODE -> SizeVote{ mWidth=1440, mHeight=3088, mMinWidth=1440, mMinHeight=3088 }
+11-24 07:08:54.349  3332  3434 D RefreshRateModeManager:       PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> RenderVote{ RefreshRateVote{  mMinRefreshRate=120.0, mMaxRefreshRate=Infinity } }
+11-24 07:08:54.349  3332  3434 D RefreshRateModeManager:  mModeSwitchingType: SWITCHING_TYPE_WITHIN_GROUPS mAlwaysRespectAppRequest: false
+11-24 07:08:54.349  3332  3434 D RefreshRateModeManager:  Current Mode mReportedRefreshRateMode(toSurfaceFlinger)=REFRESH_RATE_MODE_SEAMLESS, mRefreshRateMode(fromSettings)=REFRESH_RATE_MODE_NORMAL
+11-24 07:08:54.349  3332  3434 D RefreshRateModeManager:  BrightnessState mPassive=false, PassiveModeToken=false, mLfd=0, mBrightness=50, mAmbientLux=-1.0, mIsWirelessCharing=false
+11-24 07:08:54.349  8112  8112 I HBD     : b candidateContainerVisibility=false 
+11-24 07:08:54.349  5001  5105 D WindowManagerShell: PipDesktopState: isPipInDesktopMode isAnyDeskActive=false isDisplayDesktopFirst=false
+11-24 07:08:54.350 11802 11802 I VRI[ThumbsUpHandler_L]@1b81cf2: handleResized, frames=ClientWindowFrames{frame=[0,0][45,3088] display=[0,0][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:54.350  7177  7177 I VRI[]@edcc5d0: handleResized, frames=ClientWindowFrames{frame=[638,-22][802,142] display=[-100000,-100000][100000,100000] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:54.350  7177  7177 I VRI[]@edcc5d0: handleResized seqId=1 mSeqId=1 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:54.350 11802 11802 I VRI[ThumbsUpHandler_L]@1b81cf2: handleResized seqId=2 mSeqId=2 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:54.350 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: handleResized, frames=ClientWindowFrames{frame=[1395,0][1440,3088] display=[0,0][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:54.350 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: handleResized seqId=71 mSeqId=71 mSyncSeqId=71 syncWithBuffers=false
+11-24 07:08:54.351  7279  7279 I VRI[]@a0ecbcb: handleResized, frames=ClientWindowFrames{frame=[359,3034][1080,3088] display=[-100000,-100000][100000,100000] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:54.351  5284  5284 I VRI[CocktailBarService]@45fbebf: handleResized, frames=ClientWindowFrames{frame=[1360,1085][1440,1345] display=[0,0][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:54.351  5284  5284 I VRI[CocktailBarService]@45fbebf: handleResized seqId=1 mSeqId=1 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:54.351  7279  7279 I VRI[]@a0ecbcb: handleResized seqId=1 mSeqId=1 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:54.351  8112  8112 I HBD     : f [AiWriter][PostHistory] setIfNeedUpdatePreviousText: false
+11-24 07:08:54.351  3332  6223 I ActivityManager: Changes in 10106 19 to 5, 0 to 400
+11-24 07:08:54.351  5001  5001 I VRI[NavBarTouchConsumer]@f6f11c7: handleResized, frames=ClientWindowFrames{frame=[0,3058][1440,3088] display=[0,125][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:54.351  5001  5001 I VRI[NavBarTouchConsumer]@f6f11c7: handleResized seqId=1 mSeqId=1 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:54.351  5001  5001 I VRI[NavigationBar0]@3043bac: handleResized, frames=ClientWindowFrames{frame=[0,2944][1440,3088] display=[0,0][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:54.351  5001  5001 I VRI[NavigationBar0]@3043bac: handleResized seqId=2 mSeqId=2 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:54.352 28229 28259 I WM-WorkerWrapper: Worker result FAILURE for Work [ id=39fe8958-d1a1-4270-bdd3-f3de3527c693, class=com.google.apps.tiktok.contrib.work.TikTokListenableWorker, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,TikTokWorker#com.google.android.apps.search.googleapp.discover.sync.FeedSync,tiktok_account_work,account_id_158 } ]
+11-24 07:08:54.352 20801 21417 V BinderSender: Uid 10106 already starts
+11-24 07:08:54.352  2035  2035 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{29c2ea1 NavigationBar0#80 parentId=3703} 1 children}] reparent to LayerHierarchy{RequestedLayerState{Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3703 parentId=79} 1 children}
+11-24 07:08:54.353  2035  2035 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3696} no children}] reparent to OffscreenRoot
+11-24 07:08:54.353  2035  2035 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3696} no children}] RelativeParent to null
+11-24 07:08:54.353  2035  2035 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{VRI-InputMethod$_8112#3702 parentId=145} no children}] reparent to LayerHierarchy{RequestedLayerState{263b3cf InputMethod#145 parentId=3700} 1 children}
+11-24 07:08:54.353  8112  9164 W HBD     : o [SKE_KPM] -400 was not included in KPM.
+11-24 07:08:54.354  3332  3434 D LocalDisplayAdapter: setDesiredDisplayModeSpecsAsync : specs=[{displayToken=android.os.BinderProxy@186579adefaultMode=2 allowGroupSwitching=false primaryRanges=physical: (60.0 60.0) render:  (60.0 60.0) appRequestRanges=physical: (60.0 60.0) render:  (60.0 60.0) idleScreenRefreshRate=null workDuration=null}]
+11-24 07:08:54.354  9698  9805 I RequestManager_FLP: onOpChanged, op=0 / packageName=com.osp.app.signin
+11-24 07:08:54.354  3332  3434 I SurfaceComposerClient: setDesiredDisplayModeSpecs DisplayModeSpecs{displayToken: binder:0xb400007d8779bba0, defaultMode: 2, allowGroupSwitching: false, primaryRanges: RefreshRateRanges{physical: RefreshRateRange{min: 60.000000, max: 60.000000}, render: RefreshRateRange{min: 60.000000, max: 60.000000}}, appRequestRanges: RefreshRateRanges{physical: RefreshRateRange{min: 60.000000, max: 60.000000}, render: RefreshRateRange{min: 60.000000, max: 60.000000}}, idleScreenRefreshRateConfig: (null), workDuration: (null)}
+11-24 07:08:54.354 22305 22320 I SamsungAccount: [AccountManagerProvider] isChildAccount
+11-24 07:08:54.355  2035  2035 I SurfaceFlinger: Display 4630947093241269891 policy changed
+11-24 07:08:54.355  2035  2035 I SurfaceFlinger: Previous: {defaultModeId=2, allowGroupSwitching=false, primaryRanges={physical=[10.00 Hz, 60.00 Hz], render=[0.00 Hz, 60.00 Hz]}, appRequestRanges={physical=[10.00 Hz, 60.00 Hz], render=[0.00 Hz, 60.00 Hz]} idleScreenConfig=nullptr}
+11-24 07:08:54.355  2035  2035 I SurfaceFlinger: Current:  DisplayManagerPolicy{defaultModeId=2, allowGroupSwitching=false, primaryRanges={physical=[60.00 Hz, 60.00 Hz], render=[60.00 Hz, 60.00 Hz]}, appRequestRanges={physical=[60.00 Hz, 60.00 Hz], render=[60.00 Hz, 60.00 Hz]} idleScreenConfig=nullptr}
+11-24 07:08:54.355  2035  2035 I SurfaceFlinger: 0 mode changes were performed under the previous policy
+11-24 07:08:54.355  2035  2035 I SurfaceFlinger: [4630947093241269891] Setting desired display mode specs: {defaultModeId=2, allowGroupSwitching=false, primaryRanges={physical=[60.00 Hz, 60.00 Hz], render=[60.00 Hz, 60.00 Hz]}, appRequestRanges={physical=[60.00 Hz, 60.00 Hz], render=[60.00 Hz, 60.00 Hz]} idleScreenConfig=nullptr}
+11-24 07:08:54.355 22305 22320 I SamsungAccount: [AccountContextResolverImpl] isWorkProfile: false requestedAccountType:null targetUserId: null currentUserId: 0
+11-24 07:08:54.355  8112  9164 W HBD     : o [SKE_KPM] -5 was not included in KPM.
+11-24 07:08:54.355  8112  9164 W HBD     : o [SKE_KPM] -102 was not included in KPM.
+11-24 07:08:54.355  8112  9164 W HBD     : o [SKE_KPM] -117 was not included in KPM.
+11-24 07:08:54.355 22305 22320 I SamsungAccount: [AccountManagerProvider] Calling package : android.honeyboard.
+11-24 07:08:54.355  8112  9164 W HBD     : o [SKE_KPM] -122 was not included in KPM.
+11-24 07:08:54.355  8112  9164 W HBD     : o [SKE_KPM] 10 was not included in KPM.
+11-24 07:08:54.355  8112  9164 I HBD     : o [SKE_KPM] load kpm : /data/user/0/com.samsung.android.honeyboard/app_KeyPressModel/model_0_0_-656373444.im, normalSplit=false, pointRatio=2.148, pointWidth=1260.0, pointHeight=586.5, pointCount=36
+11-24 07:08:54.355  2035  2035 D SurfaceFlinger: setDesiredMode 4630947093241269891 {mode={fps=60.00 Hz, modePtr={id=2, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=false}
+11-24 07:08:54.356  4233  4233 I InsetsController: onStateChanged: host=in.sunilpaulmathew.ashell/in.sunilpaulmathew.ashell.activities.aShellActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3319, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1440, 3088), mDisplayCutout=DisplayCutout{insets=Rect(0, 125 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(684, 0 - 756, 125), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1440 displayHeight=3088 physicalDisplayWidth=1440 physicalDisplayHeight=3088 density={3.75} cutoutSpec={M 0,0 H -9.6 V 33.33333333333333 H 9.6 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=12, center=Point(12, 12)}, RoundedCorner{position=TopRight, radius=12, center=Point(1428, 12)}, RoundedCorner{position=BottomRight, radius=12, center=Point(1428, 3076)}, RoundedCorner{position=BottomLeft, radius=12, center=Point(12, 3076)}]}  mRoundedCornerFrame=Rect(0, 0 - 1440, 3088), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1308, 0 - 1440, 125) rotation=0}, mDisplayShape=DisplayShape{type=2, displayWidth=1440, displayHeight=3088, physicalPixelDisplaySizeRatio=1.0, rotation=0, offsetX=0, offsetY=0, scale=1.0}, mSources= { InsetsSource: {b6bd0001 mType=navigationBars mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags=SUPPRESS_SCRIM mSideHint=NONE}, InsetsSource: {b6bd0004 mType=systemGestures mFrame=[0,0][45,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=LEFT}, InsetsSource: {b6bd0005 mType=mandatorySystemGestures mFrame=[0,3028][1440,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {b6bd0006 mType=tappableElement mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {b6bd0024 mType=systemGestures mFrame=[1395,0][1440,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=RIGHT}, InsetsSource: {3 mType=ime mFrame=[0,1956][1440,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {7100000 mType=statusBars mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=false mFlags= mSideHint=TOP}, InsetsSource: {7100005 mType=mandatorySystemGestures mFrame=[0,0][1440,161] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {7100006 mType=tappableElement mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP} }
+11-24 07:08:54.356  4233  4233 I VRI[aShellActivity]@91a29ae: handleResized, frames=ClientWindowFrames{frame=[0,0][1440,3088] display=[0,0][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:54.356  4233  4233 I VRI[aShellActivity]@91a29ae: handleResized seqId=1 mSeqId=1 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:54.356  3332  4375 D SecContentProvider: query(), uri = 15 selection = isClipboardAllowedAsUser
+11-24 07:08:54.356  3332  4375 D SecContentProvider: called from android.uid.honeyboard:10180
+11-24 07:08:54.356  3332  4375 D RestrictionPolicy: isClipboardAllowed : true
+11-24 07:08:54.356  3332  4375 D SecContentProvider: SemKnoxPolicyContract.RestrictionPolicy.CLIPBOARD_ALLOWED_AS_USER return = true
+11-24 07:08:54.357 22305 22320 I SamsungAccount: [SignatureInfoDbHelper] searchOnUser(fromDb) - [10/lfgff][android.honeyboard.][64/3291d] => matched
+11-24 07:08:54.357  8112  8112 I HBD     : p Package : in.sunilpaulmathew.ashell has no meta data. 
+11-24 07:08:54.357 28229 28229 D WM-Processor: spw 39fe8958-d1a1-4270-bdd3-f3de3527c693 executed; reschedule = false
+11-24 07:08:54.357 22305 22320 I SamsungAccount: [AccountManagerProvider] This is the access of the allowed application
+11-24 07:08:54.357  3332  3434 I InsetsController: onStateChanged: host=ShowingPermanentControlTarget, from=com.android.server.wm.InsetsPolicy$ControlTarget.run:17, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1440, 3088), mDisplayCutout=DisplayCutout{insets=Rect(0, 125 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(684, 0 - 756, 125), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1440 displayHeight=3088 physicalDisplayWidth=1440 physicalDisplayHeight=3088 density={3.75} cutoutSpec={M 0,0 H -9.6 V 33.33333333333333 H 9.6 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=12, center=Point(12, 12)}, RoundedCorner{position=TopRight, radius=12, center=Point(1428, 12)}, RoundedCorner{position=BottomRight, radius=12, center=Point(1428, 3076)}, RoundedCorner{position=BottomLeft, radius=12, center=Point(12, 3076)}]}  mRoundedCornerFrame=Rect(0, 0 - 0, 0), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1308, 0 - 1440, 125) rotation=0}, mDisplayShape=DisplayShape{type=2, displayWidth=1440, displayHeight=3088, physicalPixelDisplaySizeRatio=1.0, rotation=0, offsetX=0, offsetY=0, scale=1.0}, mSources= { InsetsSource: {b6bd0001 mType=navigationBars mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags=SUPPRESS_SCRIM mSideHint=NONE}, InsetsSource: {b6bd0004 mType=systemGestures mFrame=[0,0][45,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=LEFT}, InsetsSource: {b6bd0005 mType=mandatorySystemGestures mFrame=[0,3028][1440,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {b6bd0006 mType=tappableElement mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {b6bd0024 mType=systemGestures mFrame=[1395,0][1440,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=RIGHT}, InsetsSource: {3 mType=ime mFrame=[0,1956][1440,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {7100000 mType=statusBars mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=false mFlags= mSideHint=TOP}, InsetsSource: {7100005 mType=mandatorySystemGestures mFrame=[0,0][1440,161] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {7100006 mType=tappableElement mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP} }
+11-24 07:08:54.357 28229 28229 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=39fe8958-d1a1-4270-bdd3-f3de3527c693, generation=0)
+11-24 07:08:54.357  3332  3434 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=ShowingPermanentControlTarget
+11-24 07:08:54.357  4233  4233 I InsetsController: onStateChanged: host=in.sunilpaulmathew.ashell/in.sunilpaulmathew.ashell.activities.aShellActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3319, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1440, 3088), mDisplayCutout=DisplayCutout{insets=Rect(0, 125 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(684, 0 - 756, 125), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1440 displayHeight=3088 physicalDisplayWidth=1440 physicalDisplayHeight=3088 density={3.75} cutoutSpec={M 0,0 H -9.6 V 33.33333333333333 H 9.6 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=12, center=Point(12, 12)}, RoundedCorner{position=TopRight, radius=12, center=Point(1428, 12)}, RoundedCorner{position=BottomRight, radius=12, center=Point(1428, 3076)}, RoundedCorner{position=BottomLeft, radius=12, center=Point(12, 3076)}]}  mRoundedCornerFrame=Rect(0, 0 - 1440, 3088), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1308, 0 - 1440, 125) rotation=0}, mDisplayShape=DisplayShape{type=2, displayWidth=1440, displayHeight=3088, physicalPixelDisplaySizeRatio=1.0, rotation=0, offsetX=0, offsetY=0, scale=1.0}, mSources= { InsetsSource: {b6bd0001 mType=navigationBars mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags=SUPPRESS_SCRIM mSideHint=NONE}, InsetsSource: {b6bd0004 mType=systemGestures mFrame=[0,0][45,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=LEFT}, InsetsSource: {b6bd0005 mType=mandatorySystemGestures mFrame=[0,3028][1440,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {b6bd0006 mType=tappableElement mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {b6bd0024 mType=systemGestures mFrame=[1395,0][1440,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=RIGHT}, InsetsSource: {3 mType=ime mFrame=[0,1956][1440,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {7100000 mType=statusBars mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=false mFlags= mSideHint=TOP}, InsetsSource: {7100005 mType=mandatorySystemGestures mFrame=[0,0][1440,161] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {7100006 mType=tappableElement mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP} }
+11-24 07:08:54.357  2035  5012 I SurfaceFlinger: id=3696 Removed Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3696 (176)
+11-24 07:08:54.357 28229 28229 D WM-SystemJobService: 39fe8958-d1a1-4270-bdd3-f3de3527c693 executed on JobScheduler
+11-24 07:08:54.358  8112  8112 I HBD     : MultiModal MultiModalSwitcher onAppPrivateCommand needsToShowImeSwitcher : false 
+11-24 07:08:54.358  8112  8112 I HBD     : MultiModal MultiModalSwitcher ignore needsToShowImeSwitcher : isGestureMode true, prevCommand true 
+11-24 07:08:54.358  8112  8763 I ScsApi@Feature: checkFeature() : FEATURE_SPEECH_RECOGNITION, sdk : 4.0.68
+11-24 07:08:54.358  8112  8763 I ScsApi@FeatureHolder: setStatus() : FEATURE_SPEECH_RECOGNITION : 0
+11-24 07:08:54.358  8112  8763 I HBD     : j HoneyVoice checkFeature() 0 time: 0
+11-24 07:08:54.358  8112  8763 I HBD     : a HoneyVoice isSCSSpeechFeatureEnabled : true 0 ms 
+11-24 07:08:54.359  3332  7229 D ActivityManager: sync unfroze 27904 com.samsung.android.stickercenter for 7
+11-24 07:08:54.359  8112  8112 I VibeRenderEffectBase: Set FrameRate to 60.0
+11-24 07:08:54.359  8112  8112 I GuidingLightConfig: GuidingLightConfig shape:RoundRect precision:LEVEL_1 radius:3.0 intensity:0.05 frameRate:60.0 glowIntensity:0.4 glowRadius:6.0 glowSharpness:20.0 refIntensity:0.55 refRadius:1.85 refAlbedo: 0.15  gLuminance:1.1 saturation:1.0 outerSaturation:1.0 stretch:1.0 stretchDirLit: 0.0
+11-24 07:08:54.359  8112  8112 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.359 22305 22320 I SamsungAccount: [TelephonyManagerUtil] getMccFromUsim
+11-24 07:08:54.359 22305 22320 I SamsungAccount: [MccManager] saveMccToPreference Start
+11-24 07:08:54.359 22305 22320 I SamsungAccount: [MccManager] saveMccToPreference, mcc is same with previous mcc
+11-24 07:08:54.360 22305 22320 I SamsungAccount: [ChildAccountSupportedListManager] getSupportedListFromLocal from cache
+11-24 07:08:54.360  8112  8112 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.360  8112  8112 I VibeRenderEffectBase: setAutoUpdateEnabled: true -> false
+11-24 07:08:54.361  8112  8112 I VibeRenderEffectBase: stop - runningState: READY
+11-24 07:08:54.361 22305 22320 I SamsungAccount: [TelephonyManagerUtil] getMccFromUsim
+11-24 07:08:54.361 22305 22320 I SamsungAccount: [MccManager] saveMccToPreference Start
+11-24 07:08:54.361  8112  8112 I View    : setRequestedFrameRate frameRate=-3.0, this=com.samsung.android.honeyboard.textboard.smartcandidate.view.SmartCandidateEffectView{6cfa293 V.E...... ........ 6,6-225,114 #7f0a05a0 app:id/nudge_action_item_effect_view}, caller=android.view.ViewGroup.setRequestedFrameRate:10202 ag0.f.b:2 su.j3.<init>:14 com.samsung.android.honeyboard.textboard.suggestedreplies.view.NowNudgeEffectView.a:43 fg.a.run:111 
+11-24 07:08:54.361 22305 22320 I SamsungAccount: [MccManager] saveMccToPreference, mcc is same with previous mcc
+11-24 07:08:54.361 22305 22320 I SamsungAccount: [FamilyGroupUtil] meetKoreaCountryCondition(beforeSignUp=false): false
+11-24 07:08:54.361  8112  8112 I GuidingLightEffect: Create effect, version: 2.3.1 config:GuidingLightConfig(shape=RoundRect, roundRectDirection=ALL, colorState=Nudge(Spot0[Color=#FFC2B2FF, Scale=1.87, Position=(0.08, 0.62)], Spot1[Color=#FFF0F488, Scale=2.15, Position=(1.7, 1.0)], Spot2[Color=#FF8BBDFF, Scale=1.48, Position=(0.55, 0.65)], Spot3[Color=#FF88E6E3, Scale=1.32, Position=(1.17, 0.49)]), lightBaseColor=Color(1.0, 1.0, 1.0, 1.0, sRGB IEC61966-2.1), lightPos=PointF(0.5, 0.5), lightRadius=3.0, lightIntensity=0.05, glowIntensity=0.4, glowRadius=6.0, glowSharpness=20.0, reflLightIntensity=0.55, reflLightRadius=1.85, reflAlbedo=0.15, globalLuminance=1.1, ditherVariation=0.0, saturation=1.0, outerSaturation=1.0, stretch=1.0, stretchDirLit=0.0, initialViewAlpha=1.0, lightMovement=NONE, frameRate=60.0, outlineThickness=55.0, boundarySmoothWidth=0.0, shaderPrecision=LEVEL_1, touchIntensity=0.1, lightMovementInterval=1100)
+11-24 07:08:54.361  8112  8112 I GuidingLightEffect: View size: 219x108 clickable: false visible: true
+11-24 07:08:54.361  8112  8112 I ViewRenderTarget: addOnGlobalLayoutListener(add) observer:105480843 view:114270867
+11-24 07:08:54.361  8112  8112 I GuidingLightEffect: setLightMovement: NONE
+11-24 07:08:54.361  8112  8112 I VibeRenderEffectBase: setAutoUpdateEnabled: unchanged (enabled=false)
+11-24 07:08:54.361  8112  8112 I GuidingLightEffect: Light movement disabled - runtime setLightMovement is deprecated
+11-24 07:08:54.361 22305 22320 I SamsungAccount: [ChildAccountSupportedListManager] getSupportedListFromLocal from cache
+11-24 07:08:54.361  8112  8112 I HBD     : i The uri of image candidate is null. 
+11-24 07:08:54.362 27904  3375 I StickerCenter: StickerProvider query():: code=100, p?=true, s=$true, sa?=true sortOrder : null 
+11-24 07:08:54.362 22305 22320 I SamsungAccount: [TelephonyManagerUtil] getMccFromUsim
+11-24 07:08:54.362 22305 22320 I SamsungAccount: [MccManager] saveMccToPreference Start
+11-24 07:08:54.362 22305 22320 I SamsungAccount: [MccManager] saveMccToPreference, mcc is same with previous mcc
+11-24 07:08:54.362 22305 22320 I SamsungAccount: [FamilyGroupUtil] signUpMcc mismatched
+11-24 07:08:54.362 22305 22320 I SamsungAccount: [FamilyGroupUtil] meetServerCountryCondition(beforeSignUp=false): false
+11-24 07:08:54.362 22305 22320 I SamsungAccount: [FamilyGroupUtil] isSupportFamilyService: false
+11-24 07:08:54.362 22305 22320 I SamsungAccount: [B2cAccountMethodExecutor] makeResultBundle - resultCode : 1
+11-24 07:08:54.363  8112  8112 I ViewRenderTarget: OnGlobalLayoutListener - view: 114270867, width: 789, height: 108
+11-24 07:08:54.364 28229 28259 D WM-GreedyScheduler: Cancelling work ID 39fe8958-d1a1-4270-bdd3-f3de3527c693
+11-24 07:08:54.364  8112  8112 I VRI[InputMethod]@6c333d9: handleResized, frames=ClientWindowFrames{frame=[0,125][1440,3088] display=[0,125][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:54.364  8112  8112 I VRI[InputMethod]@6c333d9: handleResized seqId=2 mSeqId=2 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:54.365  8112  8112 I GuidingLightEffect: Show Guiding Light Effect: NONE
+11-24 07:08:54.365  8112  8112 I VibeRenderEffectBase: start - runningState: READY
+11-24 07:08:54.365  8112  8112 I VibeRenderEffectBase: attachFrameCallback
+11-24 07:08:54.365  8112  8112 I AnimationManager: Show animation: NONE
+11-24 07:08:54.369  2035  2035 I SurfaceFlinger: RequestedLayer [263b3cf InputMethod#145] hidden!! flag from(1) --> to(0) // by pid (3332)
+11-24 07:08:54.369  2035  2035 I SurfaceFlinger: RequestedLayer [Surface(name=263b3cf InputMethod#145[...]ation-leash of insets_animation#3700] hidden!! flag from(0) --> to(1) // by pid (4233)
+11-24 07:08:54.369  2035  2035 E SurfaceFlinger: alpha changed 0.000 -> 1.000 - Surface(name=263b3cf InputMethod#145)/@0xed58753 - animation-leash of insets_animation#3700
+11-24 07:08:54.369  2035  2035 I SurfaceFlinger: destroyed Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3696 form LifecycleManager
+11-24 07:08:54.369  2035  2035 I SurfaceFlinger: id=3696 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3696 !handle})
+11-24 07:08:54.370  2035  2035 I SurfaceFlinger: id=3696 Destroyed Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3696
+11-24 07:08:54.370  4233  4233 D VRI[aShellActivity]@91a29ae: WindowInsets changed: ime:[0,0,0,1132] 
+11-24 07:08:54.371  3332  4289 I Pageboost: IoRecord pid : 14163
+11-24 07:08:54.372  3332  4289 W System.err: java.io.FileNotFoundException: /proc/14163/io_record_control: open failed: ENOENT (No such file or directory)
+11-24 07:08:54.372  3332  4289 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:569)
+11-24 07:08:54.372  3332  4289 W System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:259)
+11-24 07:08:54.372  3332  4289 W System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:208)
+11-24 07:08:54.372  3332  4289 W System.err: 	at java.io.FileWriter.<init>(FileWriter.java:96)
+11-24 07:08:54.372  3332  4289 W System.err: 	at com.android.server.am.Pageboost$IoRecord.write(qb/115377217 beaa6963e2d61e532f52e0d4029b70eb8d75e4d9c1d5a6364748278c88fe5259:7)
+11-24 07:08:54.372  3332  4289 W System.err: 	at com.android.server.am.Pageboost$IoRecord.getResultFromKernel(qb/115377217 beaa6963e2d61e532f52e0d4029b70eb8d75e4d9c1d5a6364748278c88fe5259:51)
+11-24 07:08:54.372  3332  4289 W System.err: 	at com.android.server.am.Pageboost$PageboostHandler.handleMessage(qb/115377217 beaa6963e2d61e532f52e0d4029b70eb8d75e4d9c1d5a6364748278c88fe5259:392)
+11-24 07:08:54.372  3332  4289 W System.err: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+11-24 07:08:54.372  3332  4289 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+11-24 07:08:54.372  3332  4289 W System.err: 	at android.os.Looper.loopOnce(Looper.java:321)
+11-24 07:08:54.372  3332  4289 W System.err: 	at android.os.Looper.loop(Looper.java:422)
+11-24 07:08:54.372  3332  4289 W System.err: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+11-24 07:08:54.372  3332  4289 W System.err: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+11-24 07:08:54.372  3332  4289 W System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-24 07:08:54.372  3332  4289 W System.err: 	at libcore.io.Linux.open(Native Method)
+11-24 07:08:54.372  3332  4289 W System.err: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:410)
+11-24 07:08:54.372  3332  4289 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+11-24 07:08:54.372  3332  4289 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:555)
+11-24 07:08:54.372  3332  4289 W System.err: 	... 12 more
+11-24 07:08:54.372  3332  4289 E Pageboost: StopRecording Failed
+11-24 07:08:54.372  3332  6223 I WindowManager: Relayout Window{5d4acee u0 in.sunilpaulmathew.ashell/in.sunilpaulmathew.ashell.activities.aShellActivity}: viewVisibility=0 req=1440x3088 ty=1 d0
+11-24 07:08:54.373  3332  6223 I ImeTracker: system_server:ee0774da: onRequestShow at ORIGIN_SERVER reason CONTROLS_CHANGED fromUser false displayId 0
+11-24 07:08:54.373  3332  6223 I WindowManager: Relayout hash=5d4acee, pid=4233, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=resize forwardNavigation} layoutInDisplayCutoutMode=always ty=BASE_APPLICATION wanim=0x103031a
+11-24 07:08:54.373  3332  6223 I WindowManager:   fl=81810100
+11-24 07:08:54.373  3332  6223 I WindowManager:   pfl=100008c0
+11-24 07:08:54.373  3332  6223 I WindowManager:   rh=4
+11-24 07:08:54.373  3332  6223 I WindowManager:   bhv=1
+11-24 07:08:54.373  3332  6223 I WindowManager:   fitSides=0
+11-24 07:08:54.373  3332  6223 I WindowManager:   frameRateBoostOnTouch=true
+11-24 07:08:54.373  3332  6223 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0}
+11-24 07:08:54.374  4233  4233 I ImeTracker: system_server:ee0774da: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+11-24 07:08:54.374  4233  4233 I BLASTBufferQueue_Java: update, w= 1440 h= 3088 mName = VRI[aShellActivity]@91a29ae mNativeObject= 0xb400007dab138400 sc.mNativeObject= 0xb400007e18854140 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3898 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+11-24 07:08:54.374  4233  4233 I VRI[aShellActivity]@91a29ae: Relayout returned: old=(0,0,1440,3088) new=(0,0,1440,3088) relayoutAsync=false req=(1440,3088)0 dur=4 res=0x200000 s={true 0xb400007da28c0000} ch=false seqId=1 syncSeqId=0
+11-24 07:08:54.375 28229 28259 D WM-SystemJobScheduler: Scheduling work ID 39fe8958-d1a1-4270-bdd3-f3de3527c693 (com.google.apps.tiktok.contrib.work.TikTokListenableWorker), Job ID 9487
+11-24 07:08:54.375  4233  4233 I VRI[aShellActivity]@91a29ae: registerCallbackForPendingTransactions
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: Build configuration failed!
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: java.lang.IllegalArgumentException: Must pass in a valid surface control if only instrument surface; 
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at com.android.internal.jank.InteractionJankMonitor$Configuration.validate(InteractionJankMonitor.java:946)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at com.android.internal.jank.InteractionJankMonitor$Configuration.<init>(InteractionJankMonitor.java:882)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at com.android.internal.jank.InteractionJankMonitor$Configuration.<init>(InteractionJankMonitor.java:0)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at com.android.internal.jank.InteractionJankMonitor$Configuration$Builder.build(InteractionJankMonitor.java:852)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at com.android.internal.jank.InteractionJankMonitor.begin(InteractionJankMonitor.java:400)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at android.view.inputmethod.ImeTracker$ImeJankTracker.lambda$onRequestAnimation$0(ImeTracker.java:970)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at android.view.inputmethod.ImeTracker$ImeJankTracker$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at android.os.Handler.handleCallback(Handler.java:1095)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at android.os.Looper.loopOnce(Looper.java:321)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at android.os.Looper.loop(Looper.java:422)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at android.app.ActivityThread.main(ActivityThread.java:10616)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at java.lang.reflect.Method.invoke(Native Method)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:635)
+11-24 07:08:54.375  4233  4233 D InteractionJankMonitor: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:982)
+11-24 07:08:54.376  4233  4378 I VRI[aShellActivity]@91a29ae: mWNT: t=0xb400007da2702c00 fn= 10 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:7108 android.view.ViewRootImpl$4.onFrameDraw:2700 android.view.ThreadedRenderer$1.onFrameDraw:750 
+11-24 07:08:54.376  3332  6223 V InputMethodManagerService: IME window vis: 3 active: 1 visible: 2 displayId: 0
+11-24 07:08:54.376  3332  6223 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+11-24 07:08:54.376 28229 28259 D WM-GreedyScheduler: Ignoring {WorkSpec: 99a5d9db-cc80-45dc-8a05-4b2462f1b849}. Requires device idle.
+11-24 07:08:54.376 28229 28259 D WM-GreedyScheduler: Ignoring {WorkSpec: 2aa873a7-439d-4c1a-acb0-3cfe8ab9c21d}. Requires device idle.
+11-24 07:08:54.376 28229 28259 D WM-GreedyScheduler: Ignoring {WorkSpec: 2ce36367-3d17-4e79-b4b3-7be9416e8bad}. Requires device idle.
+11-24 07:08:54.376 28229 28259 D WM-GreedyScheduler: Ignoring {WorkSpec: 52fd83be-445f-4dc7-bebf-ef2b72eb3dbd}. Requires device idle.
+11-24 07:08:54.376 28229 28259 D WM-GreedyScheduler: Ignoring {WorkSpec: d20597b4-130e-4217-a789-0434f807c4e6}. Requires device idle.
+11-24 07:08:54.376 28229 28259 D WM-GreedyScheduler: Ignoring {WorkSpec: c9067b6f-aac9-4395-bd45-e2b5ea87431a}. Requires device idle.
+11-24 07:08:54.376 28229 28259 D WM-GreedyScheduler: Ignoring {WorkSpec: eef0e6aa-b171-42d6-be5c-e3fd340ec627}. Requires device idle.
+11-24 07:08:54.376 28229 28259 D WM-GreedyScheduler: Ignoring {WorkSpec: 5cd56a08-36e7-444c-89e9-8fd49022890f}. Requires device idle.
+11-24 07:08:54.376  8112  8112 I HBD     : MultiModal MultiModalSwitcher onAppPrivateCommand needsToShowImeSwitcher : false 
+11-24 07:08:54.376  8112  8112 I HBD     : MultiModal MultiModalSwitcher ignore needsToShowImeSwitcher : isGestureMode true, prevCommand true 
+11-24 07:08:54.377  5001  5001 D NavigationBar: setImeWindowStatus displayId=0 vis=1 backDisposition=0 showImeSwitcherButton=false isImeVisible=false
+11-24 07:08:54.377 28229 28261 D WM-WorkConstraintsTrack: NetworkRequestConstraintController unregister shared callback
+11-24 07:08:54.377 28229 28261 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.unregisterNetworkCallback(ConnectivityManager.java:5535)] [ssv.invoke(PG:32)] [i.w(PG:1)] [ssp.invoke(PG:3)] [hjie.a(PG:102)] [hjic.invokeSuspend(PG:11)] [hitl.resumeWith(PG:11)] [hjdu.run(PG:107)] [swv.run(PG:3)] [dspn.run(PG:5)] [gmey.run(PG:46)] [dsoz.run(PG:81)] [java.lang.Thread.run(Thread.java:1571)] [dsqt.run(PG:63)]
+11-24 07:08:54.377  3332  4041 D ConnectivityService:  Removing from current network [103 WIFI], leaving 224 requests.
+11-24 07:08:54.378  5001  5001 D Navbar.Store: handleEvent(0) OnNavBarIconHintChanged(iconHint=0) [Module] NavigationBar
+11-24 07:08:54.378  5001  5001 D Navbar.Store: --[Band]SETUPWIZARD_PACK_SET_NAVBAR_ICON_HINT
+11-24 07:08:54.378  5001  5001 D Navbar.Store: --[Band]VIS_PACK_REEVAULATE_NAVBAR
+11-24 07:08:54.378  5001  5001 D Navbar.Store: ----apply(0) NavBarStoreAction$ReevaluateNavBar
+11-24 07:08:54.378  5001  5001 D NavBarView: disableBack=true (isBackDismissIme=false, handlingGestures=true, disabledFlagBack=false, isBottomGesture=false, isImeRenderingNavButtons=false, touchProtectionShown=false)
+11-24 07:08:54.379  5001  5001 D Navbar.Store: handleEvent(0) OnSetGestureHintVisibility(recentVisible=true, homeVisible=false, backVisible=true) [Module] SamsungNavigationBarView
+11-24 07:08:54.379  5001  5001 D Navbar.Store: --[Band]GESTURE_PACK_SET_HINT_VISIBILITY
+11-24 07:08:54.379  5001  5001 D Navbar.Store: --[Band]PLUGIN_PACK_RUN_PLUGIN_ACTIONS
+11-24 07:08:54.379  5001  5001 D Navbar.Store: --[Band] (afterAction) GESTURE_PACK_SET_HINT_VISIBILITY
+11-24 07:08:54.379  5001  5001 D Navbar.Store: ----apply(0) NavBarStoreAction$UpdateGestureHintVisibility
+11-24 07:08:54.379  5001  5001 D NavBarStateManager: NavBarStates(0) canShowGestureHint: false
+11-24 07:08:54.379  5001  5001 D Navbar.Store: --[Band] (afterAction) PLUGIN_PACK_RUN_PLUGIN_ACTIONS
+11-24 07:08:54.379  5001  5001 D Navbar.Store: handleEvent(0) OnUpdateSysUiStateFlag(noArguments=true) [Module] SamsungNavigationBarView
+11-24 07:08:54.379  5001  5001 D Navbar.Store: --[Band]GESTURE_PACK_UPDATE_SYSTEMUI_STATE_FLAG
+11-24 07:08:54.379  5001  5001 D Navbar.Store: --[Band] (afterAction) GESTURE_PACK_UPDATE_SYSTEMUI_STATE_FLAG
+11-24 07:08:54.379  5001  5001 D NavBarStateManager: NavBarStates(0) isGameMode: false
+11-24 07:08:54.379  5001  5001 D Navbar.Store: ----apply(0) NavBarStoreAction$UpdateSysUiFlags
+11-24 07:08:54.379  5001  5001 D Navbar.Store: ----set 70368744177664 : false
+11-24 07:08:54.379  5001  5001 D Navbar.Store: ----set 4398046511104 : false
+11-24 07:08:54.380  5284  5284 I HoneySpace.SystemUiRepository: systemUiFlags: home_disabled|allow_gesture|awake
+11-24 07:08:54.383  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.384  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.384  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.385  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.385  3332  4289 E Pageboost: captureFinished fail
+11-24 07:08:54.386  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.387  5001  5001 D NavBarStateManager: NavBarStates(0) canUseNavBarBackgroundFrame: true
+11-24 07:08:54.387  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.387  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.388  3332  7229 V InputMethodManagerService: IME window vis: 3 active: 1 visible: 2 displayId: 0
+11-24 07:08:54.388  3332  7229 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+11-24 07:08:54.389  8112  8112 I HBD     : MultiModal MultiModalSwitcher onAppPrivateCommand needsToShowImeSwitcher : false 
+11-24 07:08:54.389  5001  5001 D NavigationBar: setImeWindowStatus displayId=0 vis=3 backDisposition=0 showImeSwitcherButton=false isImeVisible=true
+11-24 07:08:54.389  8112  8112 I HBD     : MultiModal MultiModalSwitcher ignore needsToShowImeSwitcher : isGestureMode true, prevCommand true 
+11-24 07:08:54.389  5001  5001 D Navbar.Store: handleEvent(0) OnNavBarIconHintChanged(iconHint=3) [Module] NavigationBar
+11-24 07:08:54.389  5001  5001 D Navbar.Store: --[Band]SETUPWIZARD_PACK_SET_NAVBAR_ICON_HINT
+11-24 07:08:54.389  5001  5001 D Navbar.Store: --[Band]VIS_PACK_REEVAULATE_NAVBAR
+11-24 07:08:54.389  5001  5001 D Navbar.Store: ----apply(0) NavBarStoreAction$ReevaluateNavBar
+11-24 07:08:54.389  5001  5001 D NavBarView: disableBack=true (isBackDismissIme=true, handlingGestures=true, disabledFlagBack=false, isBottomGesture=false, isImeRenderingNavButtons=true, touchProtectionShown=false)
+11-24 07:08:54.390  5001  5001 D Navbar.Store: handleEvent(0) OnSetGestureHintVisibility(recentVisible=true, homeVisible=false, backVisible=true) [Module] SamsungNavigationBarView
+11-24 07:08:54.390  5001  5001 D Navbar.Store: --[Band]GESTURE_PACK_SET_HINT_VISIBILITY
+11-24 07:08:54.390  5001  5001 D Navbar.Store: --[Band]PLUGIN_PACK_RUN_PLUGIN_ACTIONS
+11-24 07:08:54.390  5001  5001 D Navbar.Store: --[Band] (afterAction) GESTURE_PACK_SET_HINT_VISIBILITY
+11-24 07:08:54.390  5001  5001 D Navbar.Store: ----apply(0) NavBarStoreAction$UpdateGestureHintVisibility
+11-24 07:08:54.390  5001  5001 D NavBarStateManager: NavBarStates(0) canShowGestureHint: false
+11-24 07:08:54.390  5001  5001 D Navbar.Store: --[Band] (afterAction) PLUGIN_PACK_RUN_PLUGIN_ACTIONS
+11-24 07:08:54.390  5001  5001 D NavBarStateManager: NavBarStates(0) supportLargeCoverScreenNavBar: false
+11-24 07:08:54.390  5001  5001 D NavBarStateManager: NavBarStates(0) canShowKeyboardButtonForRotation(0): false
+11-24 07:08:54.390  3332  4289 I Pageboost: db update :com.ziraat.ziraatmobil ret 1
+11-24 07:08:54.390  5001  5001 D Navbar.Store: handleEvent(0) OnUpdateSysUiStateFlag(noArguments=true) [Module] SamsungNavigationBarView
+11-24 07:08:54.390  5001  5001 D Navbar.Store: --[Band]GESTURE_PACK_UPDATE_SYSTEMUI_STATE_FLAG
+11-24 07:08:54.390  5001  5001 D Navbar.Store: --[Band] (afterAction) GESTURE_PACK_UPDATE_SYSTEMUI_STATE_FLAG
+11-24 07:08:54.390  5001  5001 D NavBarStateManager: NavBarStates(0) isGameMode: false
+11-24 07:08:54.390  5001  5001 D Navbar.Store: ----apply(0) NavBarStoreAction$UpdateSysUiFlags
+11-24 07:08:54.390  5001  5001 D Navbar.Store: ----set 70368744177664 : false
+11-24 07:08:54.390  5001  5001 D Navbar.Store: ----set 4398046511104 : false
+11-24 07:08:54.390  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.391  5284  5284 I HoneySpace.SystemUiRepository: systemUiFlags: home_disabled|allow_gesture|ime_visible|awake|back_dismiss_ime
+11-24 07:08:54.391  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.392  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.392  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.393  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.394  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.394  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.395  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.395  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.396  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.397  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.397  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.397  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.398  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.398  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.399  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.399  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.400  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.401  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.401  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.401  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.402  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.402  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.402  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.402  2035  2035 I SurfaceFlinger: RequestedLayer [Surface(name=263b3cf InputMethod#145[...]ation-leash of insets_animation#3700] hidden!! flag from(1) --> to(0) // by pid (4233)
+11-24 07:08:54.403  8112  9964 I Kumiho-Kumiho: getPackageName: com.samsung.android.honeyboard
+11-24 07:08:54.403  5001  5001 D NavBarStateManager: NavBarStates(0) supportLargeCoverScreenNavBar: false
+11-24 07:08:54.403  5001  5001 D NavBarStateManager: NavBarStates(0) canShowKeyboardButtonForRotation(0): false
+11-24 07:08:54.404  5001  5001 D NavBarStateManager: NavBarStates(0) canUseNavBarBackgroundFrame: true
+11-24 07:08:54.404  2035  2035 D SurfaceFlinger: Display 4630947093241269891 HWC layers:
+11-24 07:08:54.404  2035  2035 D SurfaceFlinger:        DEVICE |           18180596564041 | 00002102 | RGBA_8888    |    0.0    0.0 1440.0 3088.0 |    0    0 1440 3088 | VRI-in.sunilpaulmathew.ashell/in.sun[...]activities.aShellActivity$_4233#3699 (11)
+11-24 07:08:54.404  2035  2035 D SurfaceFlinger:        DEVICE |           34840774705425 | 00002100 | RGBA_8888    |    0.0    0.0 1440.0 1913.0 |    0 1175 1440 3088 | VRI-InputMethod$_8112#3702 (3)
+11-24 07:08:54.404  2035  2035 D SurfaceFlinger:        DEVICE |           22694607193324 | 00002100 | RGBA_8888    |    0.0    0.0   80.0  260.0 | 1360 1085 1440 1345 | VRI-com.sec.android.app.launcher/com[...]el.app.CocktailBarService$_5284#3559 (1)
+11-24 07:08:54.404  2035  2035 D SurfaceFlinger:        DEVICE |           21479131447732 | 00002100 | RGBA_8888    |    0.0    0.0 1440.0   30.0 |    0 3058 1440 3088 | VRI-NavBarTouchConsumer$_5001#222 (6)
+11-24 07:08:54.404  2035  2035 D SurfaceFlinger:        DEVICE |           21479131447745 | 00002100 | RGBA_8888    |    0.0    0.0 1440.0  144.0 |    0 2944 1440 3088 | VRI-NavigationBar0$_5001#92 (348)
+11-24 07:08:54.404  2035  2035 D SurfaceFlinger:        DEVICE |           30824980283527 | 00002100 | RGBA_8888    |    0.0   22.0  164.0  164.0 |  638    0  
+11-24 07:08:54.404  2035  2035 D SurfaceFlinger: 802  142 | VRI-$_7177#167 (28)
+11-24 07:08:54.404  2035  2035 D SurfaceFlinger:        DEVICE |           31263066947592 | 00002100 | RGBA_8888    |    0.0    0.0  721.0   54.0 |  359 3034 1080 3088 | VRI-$_7279#2186 (1)
+11-24 07:08:54.404  2035  2035 D SurfaceFlinger: 
+11-24 07:08:54.412 11802 11802 I SGPService: mKeyboardStateCheckRunnable() old=false, vis=true
+11-24 07:08:54.412 11802 11802 I SGPUtils: setImeVisibleState() vis=true
+11-24 07:08:54.412 11802 11802 I SGPHandlerWindow: adjustWindowLayout() left=true
+11-24 07:08:54.412 11802 11802 I SGPHandlerWindow: updateViewLayout() h=3088
+11-24 07:08:54.412 11802 11802 I SGPHandleView: updateView() mHandleIndex=0, pos=0, height=1956, w=45, h=2840
+11-24 07:08:54.412 11802 11802 I SGPHandlerWindow: adjustWindowLayout() left=false
+11-24 07:08:54.412 11802 11802 I SGPHandlerWindow: updateViewLayout() h=3088
+11-24 07:08:54.413 11802 11802 I SGPHandleView: updateView() mHandleIndex=1, pos=0, height=1956, w=45, h=2840
+11-24 07:08:54.413 11802 11802 I SGPController: adjustWindow() finished
+11-24 07:08:54.419  5284  5284 I HoneySpace.StackedWidgetFastRecyclerView: playHideIndicatorAnimation onAnimationEnd isTouchDownInStackedWidget : false
+11-24 07:08:54.419  5284  5284 I HoneySpace.StackedWidgetAdapter: updateLabelVisibility true true
+11-24 07:08:54.419  5284  5284 I HoneySpace.StackedWidgetFastRecyclerView: playHideIndicatorAnimation onAnimationEnd isTouchDownInStackedWidget : false
+11-24 07:08:54.419  5284  5284 I HoneySpace.StackedWidgetAdapter: updateLabelVisibility true true
+11-24 07:08:54.420  3332  4375 I WindowManager: Relayout Window{29e5e21 u0 ThumbsUpHandler_L}: viewVisibility=0 req=79x3088 ty=2601 d0
+11-24 07:08:54.422 11802 11802 I BLASTBufferQueue_Java: update, w= 79 h= 3088 mName = VRI[ThumbsUpHandler_L]@1b81cf2 mNativeObject= 0xb400007e054d8400 sc.mNativeObject= 0xb400007da8790e40 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3898 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+11-24 07:08:54.422 11802 11802 I VRI[ThumbsUpHandler_L]@1b81cf2: Relayout returned: old=(0,0,45,3088) new=(0,0,79,3088) relayoutAsync=true req=(79,3088)0 dur=1 res=0x0 s={true 0xb400007da87bfe00} ch=false seqId=2 syncSeqId=0
+11-24 07:08:54.422  3332  4375 I WindowManager: Relayout hash=29e5e21, pid=0, syncId=-1: mAttrs={(0,0)(79x3088) gr=TOP LEFT CENTER sim={state=hidden adjust=pan} layoutInDisplayCutoutMode=shortEdges ty=2601 fmt=TRANSLUCENT alpha=0.0
+11-24 07:08:54.422  3332  4375 I WindowManager:   fl=5800528
+11-24 07:08:54.422  3332  4375 I WindowManager:   pfl=10000050
+11-24 07:08:54.422  3332  4375 I WindowManager:   vsysui=500
+11-24 07:08:54.422  3332  4375 I WindowManager:   bhv=2
+11-24 07:08:54.422  3332  4375 I WindowManager:   fitTypes=107
+11-24 07:08:54.422  3332  4375 I WindowManager:   fitSides=0
+11-24 07:08:54.422  3332  4375 I WindowManager:   frameRateBoostOnTouch=true
+11-24 07:08:54.422  3332  4375 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0
+11-24 07:08:54.422  3332  4375 I WindowManager:   sfl=20000}
+11-24 07:08:54.423 11802 11802 I VRI[ThumbsUpHandler_L]@1b81cf2: registerCallbackForPendingTransactions
+11-24 07:08:54.423 11802 11971 I VRI[ThumbsUpHandler_L]@1b81cf2: mWNT: t=0xb400007da81c0600 fn= 134 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:7108 android.view.ViewRootImpl$4.onFrameDraw:2700 android.view.ThreadedRenderer$1.onFrameDraw:750 
+11-24 07:08:54.424  3332  4375 I WindowManager: Relayout Window{8c6f4ff u0 ThumbsUpHandler_R}: viewVisibility=0 req=79x3088 ty=2601 d0
+11-24 07:08:54.424  3332  4375 D WindowManager: applyWithNextDraw, mSyncSeqId=71, mBufferSeqId=72, win=Window{8c6f4ff u0 ThumbsUpHandler_R}, caller=com.android.server.wm.WindowState.applyWithNextDraw:164 com.android.server.wm.WindowState.updateSurfacePosition:302 com.android.server.wm.RootWindowContainer.performSurfacePlacement:143 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:162 com.android.server.wm.WindowManagerService.relayoutWindow:1353 com.android.server.wm.Session.relayout:29 
+11-24 07:08:54.425  3332  4375 I WindowManager: Relayout hash=8c6f4ff, pid=11802, syncId=72: mAttrs={(0,0)(79x3088) gr=TOP RIGHT CENTER sim={state=hidden adjust=pan} layoutInDisplayCutoutMode=shortEdges ty=2601 fmt=TRANSLUCENT alpha=0.0
+11-24 07:08:54.425  3332  4375 I WindowManager:   fl=5800528
+11-24 07:08:54.425  3332  4375 I WindowManager:   pfl=10000050
+11-24 07:08:54.425  3332  4375 I WindowManager:   vsysui=500
+11-24 07:08:54.425  3332  4375 I WindowManager:   bhv=2
+11-24 07:08:54.425  3332  4375 I WindowManager:   fitTypes=107
+11-24 07:08:54.425  3332  4375 I WindowManager:   fitSides=0
+11-24 07:08:54.425  3332  4375 I WindowManager:   frameRateBoostOnTouch=true
+11-24 07:08:54.425  3332  4375 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0
+11-24 07:08:54.425  3332  4375 I WindowManager:   sfl=20000}
+11-24 07:08:54.425 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: relayoutWindow, Changed mSeqId from 71 to 72
+11-24 07:08:54.425 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: relayoutWindow, Changed mSyncSeqId from 71 to 72
+11-24 07:08:54.426 11802 11802 I BLASTBufferQueue_Java: update, w= 79 h= 3088 mName = VRI[ThumbsUpHandler_R]@3a7163e mNativeObject= 0xb400007e053d9800 sc.mNativeObject= 0xb400007da8792940 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3898 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+11-24 07:08:54.426 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: Relayout returned: old=(1395,0,1440,3088) new=(1361,0,1440,3088) relayoutAsync=false req=(79,3088)0 dur=2 res=0x10 s={true 0xb400007da87be600} ch=false seqId=72 syncSeqId=72
+11-24 07:08:54.426 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: Creating new active sync group VRI[ThumbsUpHandler_R]@3a7163e#35
+11-24 07:08:54.427 11802 11972 I VRI[ThumbsUpHandler_R]@3a7163e: mWNT: t=0xb400007da82be200 fn= 133 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:16715 android.view.ThreadedRenderer$1.onFrameDraw:750 <bottom of call stack> 
+11-24 07:08:54.427 11802 11972 I VRI[ThumbsUpHandler_R]@3a7163e: Setting up sync and frameCommitCallback
+11-24 07:08:54.427 11802 11972 I BLASTBufferQueue: [VRI[ThumbsUpHandler_R]@3a7163e#57](f:0,a:1,s:0) syncNextTransaction callback: 1, acquireSingleBuffer: 1, mTransactionReadyCallback: 0
+11-24 07:08:54.427 11802 11973 I BLASTBufferQueue: [VRI[ThumbsUpHandler_R]@3a7163e#57](f:0,a:1,s:0) onFrameAvailable-start syncTransactionSet=true
+11-24 07:08:54.427 11802 11973 I BLASTBufferQueue: [VRI[ThumbsUpHandler_R]@3a7163e#57](f:0,a:1,s:0) onFrameAvailable framenumber=133 syncTransactionSet=true
+11-24 07:08:54.427 11802 11973 I BLASTBufferQueue: [VRI[ThumbsUpHandler_R]@3a7163e#57](f:1,a:1,s:0) onFrameAvailable framenumber=133 syncTransactionSet=true
+11-24 07:08:54.427 11802 11973 I BLASTBufferQueue: [VRI[ThumbsUpHandler_R]@3a7163e#57](f:0,a:2,s:1) mergePendingTransactions t: 50689204034862, frameNumber: 133
+11-24 07:08:54.427 11802 11973 I BLASTBufferQueue: [VRI[ThumbsUpHandler_R]@3a7163e#57] transaction merge. this(id: 50689204034862, fn: 133). other(id: 50689204034859, fn: 133)
+11-24 07:08:54.427 11802 11973 I BLASTBufferQueue: [VRI[ThumbsUpHandler_R]@3a7163e#57](f:0,a:2,s:1) acquireNextBufferLocked t: 50689204034862, mLastAppliedFrameNumber: 132
+11-24 07:08:54.427 11802 11973 I BLASTBufferQueue: [VRI[ThumbsUpHandler_R]@3a7163e#57](f:0,a:2,s:1) acquireNextBufferLocked size=79x3088 mFrameNumber=133 applyTransaction=false mTimestamp=3488392549031(auto) mPendingTransactions.size=0 graphicBufferId=50689204028173 transform=0
+11-24 07:08:54.428 11802 11973 I VRI[ThumbsUpHandler_R]@3a7163e: Received ready transaction from native, debugName=syncBuffer_VRI[ThumbsUpHandler_R]@3a7163e#35
+11-24 07:08:54.428 11802 11973 I SurfaceSyncGroup: checkIfSyncIsComplete, callers=android.window.SurfaceSyncGroup.markSyncReady:283 android.view.ViewRootImpl$12.lambda$onFrameDraw$2:16762 android.view.ViewRootImpl$12.$r8$lambda$9jo0CsXLLVTEwvUxXSpxypxZwTM:0 android.view.ViewRootImpl$12$$ExternalSyntheticLambda0.accept:0 <bottom of call stack> 
+11-24 07:08:54.428 11802 11973 I SurfaceSyncGroup: onTransactionReady, Try to merge t=syncBuffer_VRI[ThumbsUpHandler_R]@3a7163e#35 to Transaction of wmsSync-VRI[ThumbsUpHandler_R]@3a7163e#34, syncReady=false, pendingSyncs=1
+11-24 07:08:54.428 11802 11973 I SurfaceSyncGroup: checkIfSyncIsComplete, callers=android.window.SurfaceSyncGroup.-$$Nest$mcheckIfSyncIsComplete:0 android.window.SurfaceSyncGroup$2.onTransactionReady:775 android.window.SurfaceSyncGroup.lambda$setTransactionCallbackFromParent$5:637 android.window.SurfaceSyncGroup.$r8$lambda$RIGQSKCGL_wOT_BLp-LvudtYwpE:0 android.window.SurfaceSyncGroup$$ExternalSyntheticLambda5.accept:0 
+11-24 07:08:54.428 11802 11973 I VRI[ThumbsUpHandler_R]@3a7163e: Received frameCommittedCallback lastAttemptedDrawFrameNum=133 didProduceBuffer=true
+11-24 07:08:54.428 11802 11802 I SurfaceSyncGroup: checkIfSyncIsComplete, callers=android.window.SurfaceSyncGroup.markSyncReady:283 android.view.ViewRootImpl.performTraversals:6068 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 
+11-24 07:08:54.428 11802 11802 I SurfaceComposerClient: uncacheWithoutTransaction() cacheId: 50689204028173
+11-24 07:08:54.430  3332  7229 D WindowManager: finishDrawingWindow: Window{8c6f4ff u0 ThumbsUpHandler_R} mDrawState=HAS_DRAWN seqId=72 mSyncSeqId=72
+11-24 07:08:54.430  3332  7229 D WindowManager: finishDrawingWindow: syncBuffer=syncBuffer_VRI[ThumbsUpHandler_R]@3a7163e#35_seqId<72>
+11-24 07:08:54.430  3332  7229 D WindowManager: executeDrawHandlers, seqId=72, h.mSeqId=72, win=Window{8c6f4ff u0 ThumbsUpHandler_R}
+11-24 07:08:54.430  3332  7229 D WindowManager: finishDrawing, postDrawTransaction=syncBuffer_VRI[ThumbsUpHandler_R]@3a7163e#35_seqId<72>, syncTransaction=null, pendingTransaction=null, w=Window{8c6f4ff u0 ThumbsUpHandler_R}
+11-24 07:08:54.433  8112  8112 I HBD     : f EBD ex 
+11-24 07:08:54.433  8112  8983 I HBD     : f EBD tb start :1 
+11-24 07:08:54.433  8112  8983 I HBD     : e [SKE_LM] disableTags : id:en_US
+11-24 07:08:54.433  8112  8983 I HBD     : e [SKE_LM] enable notTaggedWith:id:en_US, emoji
+11-24 07:08:54.436  3332  3435 I SurfaceControlRegistry: apply, t=syncBuffer_VRI[ThumbsUpHandler_R]@3a7163e#35_seqId<72>, caller=android.view.SurfaceControl$Transaction.apply:3857 android.view.SurfaceControl$Transaction.apply:3845 android.view.SurfaceControl$Transaction.apply:3795 com.android.server.wm.WindowAnimator.animate:465 com.android.server.wm.WindowAnimator$$ExternalSyntheticLambda1.onVsync:23 android.view.Choreographer$CallbackRecord.run:1995 
+11-24 07:08:54.436  3332  3435 I SurfaceComposerClient: setTransactionState with buffer. layerId: 2177, bufferData(ID: 50689204028173, frameNumber: 133, barrierFrameNumber: 132)
+11-24 07:08:54.437  2035  2325 D Dolphin.LayerManager: Layer [VRI-ThumbsUpHandler_R$_11802#2177] get pkg from AppInfo cache (uid=1000): com.android.settings
+11-24 07:08:54.437  2035  2325 D SurfaceFlinger: [VRI-ThumbsUpHandler_R$_11802#2177] setTransactionState with buffer. bufferData(ID: 50689204028173, frameNumber: 133, barrierFrameNumber: 132)
+11-24 07:08:54.437  8112  8983 I HBD     : k skip stepBilingualPrediction prediction 
+11-24 07:08:54.438  8112  8983 I HBD     : e [SKE_LM] enable notTaggedWith:emoji, zh, yue_HK, nan_TW
+11-24 07:08:54.439  8112  8983 I HBD     : f EBD tb end :1 
+11-24 07:08:54.439 11802 11802 I VRI[ThumbsUpHandler_L]@1b81cf2: handleResized, frames=ClientWindowFrames{frame=[0,0][79,3088] display=[0,0][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:54.439 11802 11802 I VRI[ThumbsUpHandler_L]@1b81cf2: handleResized seqId=2 mSeqId=2 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:54.439 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: handleResized, frames=ClientWindowFrames{frame=[1361,0][1440,3088] display=[0,0][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:54.439 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: handleResized seqId=72 mSeqId=72 mSyncSeqId=72 syncWithBuffers=true
+11-24 07:08:54.439  8112  8112 I HBD     : d0 [EmojiCandidate] getEmoji from EmojiCore-[0]
+11-24 07:08:54.439  8112  8112 I HBD     : y0 [SCV] (9) 3 2 3 1 2 3 3 2 2 
+11-24 07:08:54.439  8112  8112 I HBD     : c setCandidates count=9, hasObservers=true 
+11-24 07:08:54.439  8112  8112 I HBD     : [HitRate] b candidateHistory size = 1 
+11-24 07:08:54.439  8112  8112 I HBD     : c updateCandidates count=9 
+11-24 07:08:54.439 11802 11973 I BLASTBufferQueue: [VRI[ThumbsUpHandler_R]@3a7163e#57](f:0,a:2,s:1) onFrameAvailable-start syncTransactionSet=false
+11-24 07:08:54.439 11802 11973 I BLASTBufferQueue: [VRI[ThumbsUpHandler_R]@3a7163e#57](f:0,a:2,s:1) onFrameAvailable framenumber=134 syncTransactionSet=false
+11-24 07:08:54.439  8112  8112 I HBD     : c skip updateCandidates 
+11-24 07:08:54.439 11802 11973 I BLASTBufferQueue: [VRI[ThumbsUpHandler_R]@3a7163e#57](f:1,a:2,s:1) onFrameAvailable framenumber=134 syncTransactionSet=false
+11-24 07:08:54.453 11802 11802 I BLASTBufferQueue_Java: update, w= 79 h= 3088 mName = VRI[ThumbsUpHandler_R]@3a7163e mNativeObject= 0xb400007e053d9800 sc.mNativeObject= 0xb400007da8792940 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3898 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+11-24 07:08:54.453 11802 11802 I BLASTBufferQueue: [VRI[ThumbsUpHandler_R]@3a7163e#57](f:1,a:2,s:1) update width=79 height=3088 format=-3 mTransformHint=0
+11-24 07:08:54.453  3332  4375 I WindowManager: Relayout Window{8c6f4ff u0 ThumbsUpHandler_R}: viewVisibility=0 req=79x3088 ty=2601 d0
+11-24 07:08:54.453 11802 12868 I BLASTBufferQueue: [VRI[ThumbsUpHandler_R]@3a7163e#57](f:1,a:2,s:1) transactionCommittedCallback
+11-24 07:08:54.453 11802 12868 I BLASTBufferQueue: [VRI[ThumbsUpHandler_R]@3a7163e#57](f:1,a:2,s:0) transactionCommittedCallback mSyncedFrameNumbers.erase(133)
+11-24 07:08:54.454 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: Relayout returned: old=(1361,0,1440,3088) new=(1361,0,1440,3088) relayoutAsync=true req=(79,3088)0 dur=1 res=0x0 s={true 0xb400007da87be600} ch=false seqId=72 syncSeqId=72
+11-24 07:08:54.455  3332  4375 I WindowManager: Relayout hash=8c6f4ff, pid=0, syncId=-1: mAttrs={(0,0)(79x3088) gr=TOP RIGHT CENTER sim={state=hidden adjust=pan} layoutInDisplayCutoutMode=shortEdges ty=2601 fmt=TRANSLUCENT alpha=0.0
+11-24 07:08:54.455  3332  4375 I WindowManager:   fl=5800528
+11-24 07:08:54.455  3332  4375 I WindowManager:   pfl=10000050
+11-24 07:08:54.455  3332  4375 I WindowManager:   vsysui=500
+11-24 07:08:54.455  3332  4375 I WindowManager:   bhv=2
+11-24 07:08:54.455  3332  4375 I WindowManager:   fitTypes=107
+11-24 07:08:54.455  3332  4375 I WindowManager:   fitSides=0
+11-24 07:08:54.455  3332  4375 I WindowManager:   frameRateBoostOnTouch=true
+11-24 07:08:54.455  3332  4375 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0
+11-24 07:08:54.455  3332  4375 I WindowManager:   sfl=20000}
+11-24 07:08:54.464 11802 11802 I SGPController: mTouchableRegionRunnable() s=true,region=SkRegion((0,0,250,1956)(1190,0,1440,1956))
+11-24 07:08:54.478  5284  5284 I GestureDetector: handleMessage TAP
+11-24 07:08:54.479  3332  3431 I GestureDetector: handleMessage TAP
+11-24 07:08:54.481  3332  3332 I GestureDetector: handleMessage TAP
+11-24 07:08:54.507  3332 25305 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+11-24 07:08:54.507  3332 25305 D BSOHChargingDataCollector: performBatteryWork++
+11-24 07:08:54.507  3332 25305 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@82d3121
+11-24 07:08:54.508  3332 25305 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+11-24 07:08:54.516  3332 25305 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:4.13, current:0.985156, soc:0.74, temperature:35.2, status:2, timestamp:1795493334516, voltage_chg:null}
+11-24 07:08:54.516  3332 25305 D BSOHChargingDataCollector: performBatteryWork--
+11-24 07:08:54.594  1889  6520 I sensors-hal: handle_sns_client_event:159, auto_rotation_event_2 event,255, duration,0, ts,23761029837991, ts_diff,1236397
+11-24 07:08:54.594  1889  6520 I sensors-hal: handle_sns_client_event:164, auto_rotation_debug_2 acc,-0.900,3.221,9.863, ar,0, ver,15, pedo,1,e,1,i,3
+11-24 07:08:54.595  5001  5001 D AppController: AppControlSensorListener.onSensorChanged, Rotation: -1
+11-24 07:08:54.595  3332  3431 D WindowOrientationListener: onSensorChanged device orientation: -1
+11-24 07:08:54.595  5001  5001 D NavigationBar: onRotationProposal proposedRotation=-1, isValid=false, mNavBarWindowState=WINDOW_STATE_SHOWING, rotateSuggestionsDisabled=false, isRotateButtonVisible=false
+11-24 07:08:54.595  5001  5001 D RotationButtonController@Navbar: onRotationProposal unknown rotation
+11-24 07:08:54.613  5284  5284 I HoneySpace.EdgePanel.KeyboardVisibleObserver: updateSipStatus sipVisible=1, keyboardHeight=0
+11-24 07:08:54.648  1900 14622 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 32914442
+11-24 07:08:54.735  5001  5001 D NavigationBar: onRotationProposal proposedRotation=-1, isValid=false, mNavBarWindowState=WINDOW_STATE_SHOWING, rotateSuggestionsDisabled=false, isRotateButtonVisible=false
+11-24 07:08:54.735  5001  5001 D RotationButtonController@Navbar: onRotationProposal unknown rotation
+11-24 07:08:54.738  4233  4233 I ImeTracker: in.sunilpaulmathew.ashell:b4aafe1: onShown
+11-24 07:08:54.801  7367  7367 I Routine@Core[5.1.02.9]: LaunchAppConditionChangeNotifier: isPackageIncludedInConditions: package = com.sec.android.app.launcher, conditionTag = launch_app_v3
+11-24 07:08:54.827  7367  7367 I Routine@Core[5.1.02.9]: LaunchAppConditionChangeNotifier: isPackageIncludedInConditions: package = in.sunilpaulmathew.ashell, conditionTag = launch_app_v3
+11-24 07:08:54.872  3332  3885 D ActivityManager: Received BROADCAST intent 0x28e08 Key{broadcastIntent pkg=com.google.android.gms/com.google.android.gms.scheduler intent=act=com.google.android.gms.gcm.ACTION_CHECK_QUEUE xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.gcm.nts.SchedulerInternalReceiver flags=0x2000000 u=0} requestCode=0 sent=0 from uid 1000
+11-24 07:08:54.908  3332  3894 D InputReader: Btn_touch(4): value=1 when=3488.873083
+11-24 07:08:54.908  3332  3894 I InputReader: Touch event's action is 0x0 (id=6, t=0) [pCnt=1, s=0.2698 ] when=3488.873083
+11-24 07:08:54.909  3332  3332 D PowerManagerService: [api] userActivity : other (uid: 1000 pid: 3332) <- onInputEventInternal() in com.android.server.accessibility.AccessibilityInputFilter:341 displayId=0 eventTime=3488873
+11-24 07:08:54.909  3332  3332 D InputDispatcher: Inject motion (0/0): action=0x0, time=3488873083000, f=0x0, d=0 dsdx=1.000000 dtdx=0.000000
+11-24 07:08:54.910  3332  3893 I InputDispatcher: Delivering touch to (5001): action: 0x4, ab=0x0, f=0x0, d=0, '29c2ea1', t=1 
+11-24 07:08:54.910  3332  3893 I InputDispatcher: Delivering touch to (5284): action: 0x4, ab=0x0, f=0x0, d=0, 'c7efa6c', t=1 
+11-24 07:08:54.910  3332  3893 I InputDispatcher: Delivering touch to (8112): action: 0x0, ab=0x0, f=0x0, d=0, '263b3cf', t=1 +(0,-125)
+11-24 07:08:54.910  8112  8112 I VRI[InputMethod]@6c333d9: ViewPostIme pointer 0
+11-24 07:08:54.911  3332  3431 I GestureDetector: obtain mCurrentDownEvent. id: 669907965 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:16 com.android.server.wm.PointerEventDispatcher.onInputEvent:50 android.view.InputEventReceiver.dispatchInputEvent:366 
+11-24 07:08:54.911  3332  3431 I GestureDetector: obtain mCurrentDownEvent. id: 669907965 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:12 com.android.server.wm.PointerEventDispatcher.onInputEvent:50 android.view.InputEventReceiver.dispatchInputEvent:366 
+11-24 07:08:54.911  5284  5284 W HoneySpace.RecentsAnimationState: canStartSystemGesture, return true by !isOverviewDisabled
+11-24 07:08:54.911  3332  3893 D PowerManagerService: [api] userActivityFromNative : touch, IME displayId=0 eventTime=3488873
+11-24 07:08:54.911  5284  5284 I HoneySpace.MultiFingerGestureTrailController: performClearAndDetachLocked
+11-24 07:08:54.911  5284  5284 I GestureDetector: obtain mCurrentDownEvent. id: 669907965 caller: com.honeyspace.gesture.multifinger.MultiFingerGestureDetector.onTouchEvent:10 com.honeyspace.gesture.multifinger.MultiFingerGestureInputHandler.onMotionEvent:74 com.honeyspace.gesture.GestureInputHandler.onMultiFingerGestureInputEvent:46 
+11-24 07:08:54.911  5284  5284 I HoneySpace.MultiFingerGestureDetector: onDown, fingers=1
+11-24 07:08:54.911  5284  5284 I HoneySpace.GestureInputHandler: inputConsumers = [com.honeyspace.gesture.inputconsumer.InputConsumer$Companion$NO_OP$1@f2523dd]
+11-24 07:08:54.911  5284  5284 I HoneySpace.InputSession: inputConsumers = NO_OP
+11-24 07:08:54.912  5284  5284 I HoneySpace.InputSession: open
+11-24 07:08:54.959  3332  3431 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 299366389
+11-24 07:08:54.959  3332  3431 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 299366389
+11-24 07:08:54.969  5284  5284 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 299366389
+11-24 07:08:54.974  3332  3894 D InputReader: Btn_touch(4): value=0 when=3488.938745
+11-24 07:08:54.974  3332  3894 I InputReader: Touch event's action is 0x1 (id=6, t=0) [pCnt=1, s=] when=3488.938745
+11-24 07:08:54.974  3332  3332 D InputDispatcher: Inject motion (0/0): action=0x1, time=3488938745000, f=0x0, d=0 dsdx=1.000000 dtdx=0.000000
+11-24 07:08:54.975  3332  3893 I InputDispatcher: Delivering touch to (8112): action: 0x1, ab=0x0, f=0x0, d=0, '263b3cf', t=1 +(0,-125)
+11-24 07:08:54.975  8112  8112 I VRI[InputMethod]@6c333d9: ViewPostIme pointer 1
+11-24 07:08:54.976  5284  5284 I HoneySpace.MultiFingerGestureTrailController: performClearAndDetachLocked
+11-24 07:08:54.976  5284  5284 I HoneySpace.GestureInputHandler: reset
+11-24 07:08:54.976  5284  5284 I HoneySpace.InputSession: close
+11-24 07:08:54.988  8112  8112 I HBD     : c IIFO[r:340ce4c7af][type:commit][src:TYPED] 
+11-24 07:08:54.989  8112  8112 I HBD     : a send action for exiting smart candidate : b 
+11-24 07:08:54.990  8112  8112 I HBD     : SmartCandidateContainerViewModel SmartCandidate visibility : false 
+11-24 07:08:54.990  8112  8112 I GuidingLightEffect: Hide Guiding Light Effect: NONE
+11-24 07:08:54.990  8112  8112 I AnimationManager: Hide animation: NONE
+11-24 07:08:54.990  8112  8112 I VibeRenderEffectBase: stop - runningState: RUNNING
+11-24 07:08:54.990  8112  8112 I VibeRenderEffectBase: removeFrameCallback
+11-24 07:08:54.990  8112  8112 I VibeRenderEffectBase: stop - runningState: READY
+11-24 07:08:54.990  8112  8112 I GuidingLightEffect: release
+11-24 07:08:54.990  8112  8112 I VibeRenderEffectBase: stop - runningState: READY
+11-24 07:08:54.990  8112  8112 I ViewRenderTarget: removeOnGlobalLayoutListener(saved) observer:105480843 view:114270867
+11-24 07:08:54.991  8112  8112 I VibeRenderEffectBase: effect is already in ready state.
+11-24 07:08:54.991  8112  8112 I VibeRenderEffectBase: destroy Render Effect 
+11-24 07:08:54.991  8112  8112 I VibeRenderEffectBase: stop - runningState: READY
+11-24 07:08:54.991  8112  8112 I VibeRenderEffectBase: destroy
+11-24 07:08:54.991  8112  8112 I VibeRenderEffectBase: destroy Render Effect 
+11-24 07:08:54.991  8112  8112 I VibeRenderEffectBase: stop - runningState: READY
+11-24 07:08:54.991  8112  8112 I RadialGradRenderEffect: destroy
+11-24 07:08:55.000  8112  8112 I HBD     : d CACHEDIC_S  s:sc  g: 744  i: f2f6404  o: 0 , 0  n: 53 , 53  c: -1 , -1  cl: 53  cs: 53 , 53  cp: 0  st: 2  ce: true  ss: 735  si: 737
+11-24 07:08:55.000  8112  8112 I HBD     : a ous -  0 ,  0 ,  53 ,  53 ,  -1 ,  -1
+11-24 07:08:55.000  8112  8112 I HBD     : c IIFO[r:90e09af07e][type:finish] 
+11-24 07:08:55.004  4233  4233 D AutofillManager: view not autofillable - not passing ime action check
+11-24 07:08:55.020  4233  4233 D AutofillManager: view not autofillable - not passing ime action check
+11-24 07:08:55.022  8112  8112 I HBD     : k skip stepBilingualPrediction prediction 
+11-24 07:08:55.022  8112  8112 I HBD     : [HitRate] b clear by update selection 
+11-24 07:08:55.022  8112  8112 I HBD     : [HitRate] b clear candidateHistory 
+11-24 07:08:55.023  8112  8983 I HBD     : f EBD tb start :1 
+11-24 07:08:55.023  8112  8983 I HBD     : f EBD tb end :1 
+11-24 07:08:55.024  8112  8112 I HBD     : d0 [EmojiCandidate] getEmoji from EmojiCore-[0]
+11-24 07:08:55.024  8112  8112 I HBD     : y0 [SCV] (9) 3 3 4 3 2 2 1 4 3 
+11-24 07:08:55.024  8112  8112 I HBD     : c setCandidates count=9, hasObservers=true 
+11-24 07:08:55.024  8112  8112 I HBD     : [HitRate] b candidateHistory size = 1 
+11-24 07:08:55.024  8112  8112 I HBD     : f EBD cm f 1 
+11-24 07:08:55.025  3332  7132 I WindowManager: Relayout Window{263b3cf u0 InputMethod}: viewVisibility=0 req=1440x2963 ty=2011 d0
+11-24 07:08:55.025  8112  8112 I BLASTBufferQueue_Java: update, w= 1440 h= 2963 mName = VRI[InputMethod]@6c333d9 mNativeObject= 0xb400007d964ce800 sc.mNativeObject= 0xb400007cf0b5ef00 format= -2 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3898 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+11-24 07:08:55.025  8112  8112 I VRI[InputMethod]@6c333d9: Relayout returned: old=(0,125,1440,3088) new=(0,125,1440,3088) relayoutAsync=true req=(1440,2963)0 dur=0 res=0x0 s={true 0xb400007cf0b9e000} ch=false seqId=2 syncSeqId=0
+11-24 07:08:55.026  8112  8112 I VRI[InputMethod]@6c333d9: registerCallbackForPendingTransactions
+11-24 07:08:55.026  3332  7132 I WindowManager: Relayout hash=263b3cf, pid=0, syncId=-1: mAttrs={(0,0)(fillxfill) gr=BOTTOM CENTER_VERTICAL sim={adjust=pan} ty=INPUT_METHOD fmt=TRANSPARENT wanim=0x7f140211 preferredMinDisplayRefreshRate=60.0 receive insets ignoring z-order
+11-24 07:08:55.026  3332  7132 I WindowManager:   fl=81800108
+11-24 07:08:55.026  3332  7132 I WindowManager:   pfl=10000800
+11-24 07:08:55.026  3332  7132 I WindowManager:   bhv=1
+11-24 07:08:55.026  3332  7132 I WindowManager:   fitTypes=3
+11-24 07:08:55.026  3332  7132 I WindowManager:   fitSides=7
+11-24 07:08:55.026  3332  7132 I WindowManager:   fitIgnoreVis
+11-24 07:08:55.026  3332  7132 I WindowManager:   frameRateBoostOnTouch=true
+11-24 07:08:55.026  3332  7132 I WindowManager:   dvrrWindowFrameRateHint=true
+11-24 07:08:55.026  3332  7132 I WindowManager:  dimAmount=0.18 dimDuration=150 naviIconColor=0}
+11-24 07:08:55.027  3332  6223 D WindowManager: setInsetsWindow Window{263b3cf u0 InputMethod}, contentInsets=Rect(0, 1831 - 0, 0) -> Rect(0, 1831 - 0, 0), visibleInsets=Rect(0, 1831 - 0, 0) -> Rect(0, 1831 - 0, 0), touchableRegion=SkRegion((0,1831,1440,2963)) -> SkRegion((0,1831,1440,2963)), touchableInsets 3 -> 3
+11-24 07:08:55.027  8112  8112 I HBD     : c updateCandidates count=9 
+11-24 07:08:55.027  8112  8112 I HBD     : c skip updateCandidates 
+11-24 07:08:55.027  8112  9135 I VRI[InputMethod]@6c333d9: mWNT: t=0xb400007e0545ca00 fn= 9 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:7108 android.view.ViewRootImpl$4.onFrameDraw:2700 android.view.ThreadedRenderer$1.onFrameDraw:750 
+11-24 07:08:55.207  7367  7367 I Routine@Core[5.1.02.9]: LaunchAppConditionChangeNotifier: isPackageIncludedInConditions: package = com.sec.android.app.launcher, conditionTag = launch_app_v3
+11-24 07:08:55.210  3332  3332 I GestureDetector: handleMessage TAP
+11-24 07:08:55.211  3332  3431 I GestureDetector: handleMessage TAP
+11-24 07:08:55.211  5284  5284 I GestureDetector: handleMessage TAP
+11-24 07:08:55.509  3332 25305 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+11-24 07:08:55.509  3332 25305 D BSOHChargingDataCollector: performBatteryWork++
+11-24 07:08:55.509  3332 25305 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@82d3121
+11-24 07:08:55.509  3332 25305 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+11-24 07:08:55.517  3332 25305 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:4.161, current:1.664062, soc:0.74, temperature:35.2, status:2, timestamp:1795493335517, voltage_chg:null}
+11-24 07:08:55.517  3332 25305 D BSOHChargingDataCollector: performBatteryWork--
+11-24 07:08:55.544  1889  6520 I sensors-hal: handle_sns_client_event:190, auto_rotation_debug_2 mode,255, type,1,1 acc,-0.646,3.896,9.112, ar,0, ver,15, pedo,1,e,1,i,3
+11-24 07:08:55.545  1889  2400 I sensors-hal: handle_sns_client_event:574, [0][84822] accel_sample [-0.560,  3.776,  9.033] 23761510796377
+11-24 07:08:55.670  2035  2111 I SurfaceFlinger: Current= 60, Period= 60, Distance= 0
+11-24 07:08:55.686  2035  2111 I SurfaceFlinger: Current= 60, Period= 60, Distance= 60
+11-24 07:08:55.725  3332  3894 D InputReader: Btn_touch(4): value=1 when=3489.690142
+11-24 07:08:55.725  3332  3894 I InputReader: Touch event's action is 0x0 (id=6, t=0) [pCnt=1, s=0.2699 ] when=3489.690142
+11-24 07:08:55.727  3332  3332 D InputDispatcher: Inject motion (0/0): action=0x0, time=3489690142000, f=0x0, d=0 dsdx=1.000000 dtdx=0.000000
+11-24 07:08:55.728  3332  3893 I InputDispatcher: Delivering touch to (11802): action: 0x0, ab=0x0, f=0x0, d=0, '8c6f4ff', t=1 +(-1361,0)
+11-24 07:08:55.729  3332  3431 I GestureDetector: obtain mCurrentDownEvent. id: 983405484 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:16 com.android.server.wm.PointerEventDispatcher.onInputEvent:50 android.view.InputEventReceiver.dispatchInputEvent:366 
+11-24 07:08:55.729  3332  3431 I GestureDetector: obtain mCurrentDownEvent. id: 983405484 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:12 com.android.server.wm.PointerEventDispatcher.onInputEvent:50 android.view.InputEventReceiver.dispatchInputEvent:366 
+11-24 07:08:55.729  5284  5284 W HoneySpace.RecentsAnimationState: canStartSystemGesture, return true by !isOverviewDisabled
+11-24 07:08:55.730  5284  5284 I HoneySpace.MultiFingerGestureTrailController: performClearAndDetachLocked
+11-24 07:08:55.730  5284  5284 I GestureDetector: obtain mCurrentDownEvent. id: 983405484 caller: com.honeyspace.gesture.multifinger.MultiFingerGestureDetector.onTouchEvent:10 com.honeyspace.gesture.multifinger.MultiFingerGestureInputHandler.onMotionEvent:74 com.honeyspace.gesture.GestureInputHandler.onMultiFingerGestureInputEvent:46 
+11-24 07:08:55.730  5284  5284 I HoneySpace.MultiFingerGestureDetector: onDown, fingers=1
+11-24 07:08:55.730  5284  5284 I HoneySpace.GestureInputHandler: inputConsumers = [com.honeyspace.gesture.inputconsumer.InputConsumer$Companion$NO_OP$1@f2523dd]
+11-24 07:08:55.730  5284  5284 I HoneySpace.InputSession: inputConsumers = NO_OP
+11-24 07:08:55.731  5284  5284 I HoneySpace.InputSession: open
+11-24 07:08:55.729 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: ViewPostIme pointer 0
+11-24 07:08:55.732 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[ThumbsUpHandler_R]@3a7163e
+11-24 07:08:55.734  3332  3431 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 94916440
+11-24 07:08:55.734  3332  3431 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 94916440
+11-24 07:08:55.736  2035  2035 I SurfaceFlinger: [VRI-ThumbsUpHandler_R$_11802#2177] setFrameRateCategory: HighHint
+11-24 07:08:55.750  3332  4289 I Pageboost: Launcher App Execution
+11-24 07:08:55.753  5284  5284 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 425263494
+11-24 07:08:55.765  3332  5564 I NSLocationMonitor: getGPSUsingApps() called
+11-24 07:08:55.767  9698 16886 I NSLocationManager_FLP: getGPSUsingApps, No change
+11-24 07:08:55.770  4518 13999 I NearbyMediums: No BLE Fast/GATT advertisements found in the latest cycle.
+11-24 07:08:55.770  4518 13999 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbyConnections.TxAdvertisement}
+11-24 07:08:55.774  3332  5564 D FreecessHandler: skipping freeze com.lstapps.musicwidgetandroid12(10564) result : 40
+11-24 07:08:55.792  1900 14462 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 4608130
+11-24 07:08:55.805  3332  6223 I WindowManager: Relayout Window{359afb8 u0 ThumbsUpAnimationWindow}: viewVisibility=4 req=330x990 ty=2601 d0
+11-24 07:08:55.805 11802 11802 I VRI[ThumbsUpAnimationWindow]@1ba53bb: Relayout returned: old=(1110,1136,1440,2126) new=(1110,1074,1440,2064) relayoutAsync=true req=(330,990)4 dur=0 res=0x0 s={false 0x0} ch=false seqId=1 syncSeqId=0
+11-24 07:08:55.806  3332  6223 I WindowManager: Relayout hash=359afb8, pid=0, syncId=-1: mAttrs={(0,1074)(330x990) gr=TOP RIGHT CENTER sim={state=hidden adjust=pan} layoutInDisplayCutoutMode=shortEdges ty=2601 fmt=TRANSLUCENT
+11-24 07:08:55.806  3332  6223 I WindowManager:   fl=5000518
+11-24 07:08:55.806  3332  6223 I WindowManager:   pfl=10000050
+11-24 07:08:55.806  3332  6223 I WindowManager:   vsysui=500
+11-24 07:08:55.806  3332  6223 I WindowManager:   bhv=2
+11-24 07:08:55.806  3332  6223 I WindowManager:   fitTypes=107
+11-24 07:08:55.806  3332  6223 I WindowManager:   fitSides=0
+11-24 07:08:55.806  3332  6223 I WindowManager:   frameRateBoostOnTouch=true
+11-24 07:08:55.806  3332  6223 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0
+11-24 07:08:55.806  3332  6223 I WindowManager:   sfl=20000}
+11-24 07:08:55.823  3332  6223 D VibratorManagerService: converted usage = TOUCH(18)
+11-24 07:08:55.822  7602  8006 I n2      : limitCPUFreq:: freq = 3187200
+11-24 07:08:55.823  3332  6223 D VibratorManagerService: vibrate - uid: 10333, opPkg: com.samsung.android.sidegesturepad, effect: Mono{mEffect=Composed{segments=[Step{amplitude=-1.0, duration=5}], repeat=-1, mMagnitudeType=TYPE_EXTRA}}, attrs: VibrationAttributes{mUsage=TOUCH, mAudioUsage= USAGE_UNKNOWN, mFlags=1, tags=ALLOWED_IN_BACKGROUND_PROCESS}, reason: null, token: android.os.BinderProxy@28a3478
+11-24 07:08:55.823  3332  6223 D VibratorManagerService: Starting vibrate for vibration 3053
+11-24 07:08:55.824  7602  8006 I SemDvfsHyPerManager: acquire hyper - SIOP_ARM_MAX/7602@3, type = 301993986
+11-24 07:08:55.824  3332  6223 D VibratorManagerService: Check AppOp mode VIBRATE for uid 10333 and package com.samsung.android.sidegesturepad returned audio=allow, op=allow
+11-24 07:08:55.824  3332  6223 D VibratorManagerService: Starting vibration 3053 on thread
+11-24 07:08:55.824  3332  6223 D VibratorManagerService: Start AppOp mode VIBRATE for uid 10333 and package com.samsung.android.sidegesturepad returned allow
+11-24 07:08:55.824  1900  2053 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 28921818  [7602 / 3]    HINT :      list : [CPUMaxFreq / 3187200] 
+11-24 07:08:55.827  3332  3884 D VibrationThread: Playing vibration id 3053 StartCombinedVibrationStep
+11-24 07:08:55.828  1979  1979 E SecVibrator-HAL-AIDL-EXT: V_5_0: performPrebakedHapticPattern 0 : 8000 : 0
+11-24 07:08:55.829  1979  1979 E SecVibrator-HAL-AIDL-CORE: HW_API: [setForceFeedbackAmplitude]amplitude: 8000
+11-24 07:08:55.829  3332  3431 D WindowManager: requestTransientBars: swipeTarget=Window{29c2ea1 u0 NavigationBar0}, controlTarget=ShowingPermanentControlTarget, canShowTransient=true, restorePositionTypes=0x3, from=com.android.server.wm.DisplayPolicy.requestTransientBars:164 com.android.server.wm.DisplayPolicy$1.onSwipeFromRight:80 
+11-24 07:08:55.839  3332  6223 I WindowManager: Relayout Window{359afb8 u0 ThumbsUpAnimationWindow}: viewVisibility=0 req=330x990 ty=2601 d0
+11-24 07:08:55.839 11802 11802 I Surface : Creating surface for consumer unnamed-11802-59 with slotExpansion=1 for 64 slots
+11-24 07:08:55.839  3332  6223 D WindowManager: setClientSurface Surface(name=VRI-ThumbsUpAnimationWindow$_11802#1813)/@0xda51751 for 359afb8 ThumbsUpAnimationWindow
+11-24 07:08:55.839 11802 11802 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+11-24 07:08:55.839 11802 11802 I BufferQueueProducer: [](id:2e1a0000003b,api:0,p:-1468729680,c:11802) setDequeueTimeout:2077252342
+11-24 07:08:55.840 11802 11802 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[ThumbsUpAnimationWindow]@1ba53bb mNativeObject= 0xb400007e053dac00 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3909 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 android.view.Choreographer$CallbackRecord.run:1995 android.view.Choreographer.doCallbacks:1440 android.view.Choreographer.doFrame:1393 android.view.Choreographer$FrameDisplayEventReceiver.run:1957 
+11-24 07:08:55.840 11802 11802 I BLASTBufferQueue_Java: update, w= 330 h= 990 mName = VRI[ThumbsUpAnimationWindow]@1ba53bb mNativeObject= 0xb400007e053dac00 sc.mNativeObject= 0xb400007da8791680 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3914 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+11-24 07:08:55.840 11802 11802 I Surface : Creating surface for consumer VRI[ThumbsUpAnimationWindow]@1ba53bb#59(BLAST Consumer)59 with slotExpansion=1 for 64 slots
+11-24 07:08:55.841 11802 11802 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+11-24 07:08:55.841  3332  6223 I WindowManager: Relayout hash=359afb8, pid=0, syncId=-1: mAttrs={(0,1074)(330x990) gr=TOP RIGHT CENTER sim={state=hidden adjust=pan} layoutInDisplayCutoutMode=shortEdges ty=2601 fmt=TRANSLUCENT
+11-24 07:08:55.841  3332  6223 I WindowManager:   fl=5000518
+11-24 07:08:55.841  3332  6223 I WindowManager:   pfl=10000050
+11-24 07:08:55.841  3332  6223 I WindowManager:   vsysui=500
+11-24 07:08:55.841  3332  6223 I WindowManager:   bhv=2
+11-24 07:08:55.841  3332  6223 I WindowManager:   fitTypes=107
+11-24 07:08:55.841  3332  6223 I WindowManager:   fitSides=0
+11-24 07:08:55.841  3332  6223 I WindowManager:   frameRateBoostOnTouch=true
+11-24 07:08:55.841  3332  6223 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0
+11-24 07:08:55.841  3332  6223 I WindowManager:   sfl=20000}
+11-24 07:08:55.841 11802 11802 I VRI[ThumbsUpAnimationWindow]@1ba53bb: Relayout returned: old=(1110,1074,1440,2064) new=(1110,1074,1440,2064) relayoutAsync=true req=(330,990)0 dur=1 res=0x3 s={true 0xb400007da87d5000} ch=true seqId=1 syncSeqId=0
+11-24 07:08:55.842 11802 11802 I VRI[ThumbsUpAnimationWindow]@1ba53bb: Creating new active sync group VRI[ThumbsUpAnimationWindow]@1ba53bb#38
+11-24 07:08:55.843 11802 11971 I VRI[ThumbsUpAnimationWindow]@1ba53bb: mWNT: t=0xb400007da82bec00 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:16715 android.view.ThreadedRenderer$1.onFrameDraw:750 <bottom of call stack> 
+11-24 07:08:55.843 11802 11971 I VRI[ThumbsUpAnimationWindow]@1ba53bb: Setting up sync and frameCommitCallback
+11-24 07:08:55.845 11802 11973 I BLASTBufferQueue: [VRI[ThumbsUpAnimationWindow]@1ba53bb#59](f:0,a:0,s:0) onFrameAvailable the first frame is available
+11-24 07:08:55.845 11802 11973 I SurfaceComposerClient: apply transaction with the first frame. layerId: 1813, bufferData(ID: 50689204028176, frameNumber: 1)
+11-24 07:08:55.846 11802 11973 I VRI[ThumbsUpAnimationWindow]@1ba53bb: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+11-24 07:08:55.846  2035  4273 I SurfaceFlinger: [VRI-ThumbsUpAnimationWindow$_11802#1813] setTransactionState with the first frame. bufferData(ID: 50689204028176, frameNumber: 1)
+11-24 07:08:55.846  3332  6223 D WindowManager: finishDrawingWindow: Window{359afb8 u0 ThumbsUpAnimationWindow} mDrawState=DRAW_PENDING seqId=1 mSyncSeqId=1
+11-24 07:08:55.847  3332  3435 V WindowManager: performShowLocked: mDrawState=HAS_DRAWN in Window{359afb8 u0 ThumbsUpAnimationWindow}
+11-24 07:08:55.848  1979  1979 E SecVibrator-HAL-AIDL-CORE: HW_API: [uploadForceFeedbackeffect]ioctl success ,uploaded effect with ID: 0
+11-24 07:08:55.849  3332  3884 D VibrationThread: Running amplitude step with 0ms latency.
+11-24 07:08:55.849  3332  3884 D VibrationThread: Turning on vibrator 0 for 5ms
+11-24 07:08:55.849  3332  5831 D MotionRecognitionService: inject vibrator info = 1.0
+11-24 07:08:55.849  1979  1979 E SecVibrator-HAL-AIDL-CORE: V_2_0: Vibrator on for timeoutMs: 5
+11-24 07:08:55.849  1979  1979 E SecVibrator-HAL-AIDL-CORE: HW_API: do_on for timeoutMs: 5
+11-24 07:08:55.850  1889  1889 I sensors-hal: inject_sensor_data:433, handle:11, type:33 not supported
+11-24 07:08:55.850  1889  1889 I sensors-hal: inject_sensor_data:433, handle:11, type:33 not supported
+11-24 07:08:55.851  1889  1889 I sensors-hal: inject_sensor_data:433, handle:11, type:33 not supported
+11-24 07:08:55.854  3332  3435 I SurfaceComposerClient: apply reparent: [1813->1810] 
+11-24 07:08:55.861  1979  1979 E SecVibrator-HAL-AIDL-CORE: HW_API: [uploadForceFeedbackeffect]ioctl success ,uploaded effect with ID: 0
+11-24 07:08:55.862  1979  1979 E SecVibrator-HAL-AIDL-CORE: HW_API: [triggerForceFeedbackVibration]on: 1
+11-24 07:08:55.862  3332  3884 D VibrationThread: Turned on vibrator 0, result = 5
+11-24 07:08:55.862  3332  3884 D VibrationThread: Amplitude changed on vibrator 0 to -1.0
+11-24 07:08:55.862  1979  1979 E SecVibrator-HAL-AIDL-CORE: V_2_0: Vibrator set amplitude: -1
+11-24 07:08:55.862  1979  1979 E SecVibrator-HAL-AIDL-CORE: HW_API: [isAmplitudeControlExist]return true
+11-24 07:08:55.862  3332  3884 E VibratorController: Vibrator HAL setAmplitude failed: Status(-3, EX_ILLEGAL_ARGUMENT): ''
+11-24 07:08:55.863  3332  3884 D VibrationThread: Playing vibration id 3053 on vibrator 0 CompleteEffectVibratorStep
+11-24 07:08:55.863  3332  3884 D VibrationThread: Running complete vibration step on vibrator 0
+11-24 07:08:55.867  3332 11726 D VibratorManagerService: Vibration 3053 step 1 on vibrator 0 complete, notifying thread
+11-24 07:08:55.867  3332 11726 D VibrationThread: Vibration complete reported by vibrator 0
+11-24 07:08:55.867  3332  3884 D VibrationThread: Received completion callback from 0, accepted = true
+11-24 07:08:55.867  3332  3884 D VibrationThread: Playing vibration id 3053 on vibrator 0 TurnOffVibratorStep
+11-24 07:08:55.867  3332  3884 D VibrationThread: Turning off vibrator 0
+11-24 07:08:55.867  1979  1979 E SecVibrator-HAL-AIDL-CORE: V_2_0: Vibrator off
+11-24 07:08:55.867  1979  1979 E SecVibrator-HAL-AIDL-CORE: HW_API: do_off
+11-24 07:08:55.867  1979  1979 E SecVibrator-HAL-AIDL-CORE: HW_API: [triggerForceFeedbackVibration]on: 0
+11-24 07:08:55.868  3332  3884 D VibrationThread: Vibration 3053 finished with EndInfo{status=FINISHED, endedBy=null}
+11-24 07:08:55.868  3332  3884 D VibrationThread: Playing vibration id 3053 FinishCombinedVibrationStep (cleanup)
+11-24 07:08:55.868  3332  3884 D VibratorManagerService: VibrationThread released vibration 3053
+11-24 07:08:55.868  3332  3884 D VibratorManagerService: Finish AppOp mode VIBRATE for uid 10333 and package com.samsung.android.sidegesturepad
+11-24 07:08:55.869  3332  3884 D VibratorManagerService: Vibration for uid=10333 and with attrs=VibrationAttributes{mUsage=TOUCH, mAudioUsage= USAGE_UNKNOWN, mFlags=1, tags=ALLOWED_IN_BACKGROUND_PROCESS} ended with status FINISHED
+11-24 07:08:55.870  2035  2035 I SurfaceFlinger: RequestedLayer [359afb8 ThumbsUpAnimationWindow#1810] hidden!! flag from(1) --> to(0) // by pid (3332)
+11-24 07:08:55.870  2035  2035 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{VRI-ThumbsUpAnimationWindow$_11802#1813 parentId=1810} no children}] reparent to LayerHierarchy{RequestedLayerState{359afb8 ThumbsUpAnimationWindow#1810 parentId=1809} 1 children}
+11-24 07:08:55.876  2035  2035 D SurfaceFlinger: Display 4630947093241269891 HWC layers:
+11-24 07:08:55.876  2035  2035 D SurfaceFlinger:        DEVICE |           18180596564042 | 00002102 | RGBA_8888    |    0.0    0.0 1440.0 3088.0 |    0    0 1440 3088 | VRI-in.sunilpaulmathew.ashell/in.sun[...]activities.aShellActivity$_4233#3699 (38)
+11-24 07:08:55.876  2035  2035 D SurfaceFlinger:        DEVICE |           34840774705427 | 00002100 | RGBA_8888    |    0.0    0.0 1440.0 2963.0 |    0  125 1440 3088 | VRI-InputMethod$_8112#3702 (9)
+11-24 07:08:55.876  2035  2035 D SurfaceFlinger:        DEVICE |           22694607193324 | 00002100 | RGBA_8888    |    0.0    0.0   80.0  260.0 | 1360 1085 1440 1345 | VRI-com.sec.android.app.launcher/com[...]el.app.CocktailBarService$_5284#3559 (1)
+11-24 07:08:55.876  2035  2035 D SurfaceFlinger:        DEVICE |           21479131447732 | 00002100 | RGBA_8888    |    0.0    0.0 1440.0   30.0 |    0 3058 1440 3088 | VRI-NavBarTouchConsumer$_5001#222 (6)
+11-24 07:08:55.876  2035  2035 D SurfaceFlinger:        DEVICE |           21479131447736 | 00002100 | RGBA_8888    |    0.0    0.0 1440.0  144.0 |    0 2944 1440 3088 | VRI-NavigationBar0$_5001#92 (349)
+11-24 07:08:55.876  2035  2035 D SurfaceFlinger:        DEVICE |           50689204028179 | 00002100 | RGBA_8888    |    0.0    0.0  330.0  990.0 | 1110 1074 1
+11-24 07:08:55.876  2035  2035 D SurfaceFlinger: 440 2064 | VRI-ThumbsUpAnimationWindow$_11802#1813 (2)
+11-24 07:08:55.876  2035  2035 D SurfaceFlinger:        DEVICE |           30824980283527 | 00002100 | RGBA_8888    |    0.0   22.0  164.0  164.0 |  638    0  802  142 | VRI-$_7177#167 (28)
+11-24 07:08:55.876  2035  2035 D SurfaceFlinger:        DEVICE |           31263066947592 | 00002100 | RGBA_8888    |    0.0    0.0  721.0   54.0 |  359 3034 1080 3088 | VRI-$_7279#2186 (1)
+11-24 07:08:55.876  2035  2035 D SurfaceFlinger: 
+11-24 07:08:55.912  3332  5564 I NSLocationMonitor: getGPSUsingApps() called
+11-24 07:08:55.913  9698 16886 I NSLocationManager_FLP: getGPSUsingApps, No change
+11-24 07:08:55.916  3332  3332 D PowerManagerService: [api] userActivity : other (uid: 1000 pid: 3332) <- onInputEventInternal() in com.android.server.accessibility.AccessibilityInputFilter:341 displayId=0 eventTime=3489880
+11-24 07:08:55.921  3332  5564 D FreecessController: FZ : com.wstxda.toolkit(10768) [9507] reason: Bg
+11-24 07:08:55.921  3332  5564 D FreecessHandler: freeze com.wstxda.toolkit(10768)
+11-24 07:08:55.921  3332  5564 W LocationManagerService: onFreezeStateChanged, uid[10768]=true
+11-24 07:08:55.921  3332  5564 I PowerManagerService: [PWL] SetWakeLockEnableDisable uid = 10768 , disable= true
+11-24 07:08:55.921  3332  5564 I PowerManagerService: [PWL] can not change uid =  10768
+11-24 07:08:55.934  3332  3893 D PowerManagerService: [api] userActivityFromNative : touch displayId=0 eventTime=3489897
+11-24 07:08:55.954  3332  3435 I SurfaceComposerClient: apply reparent: [3617->-1] 
+11-24 07:08:55.970  2035  2035 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{WindowToken{34bed85 type=2005 android.os.Binder@79272fc}#3617} no children}] reparent to OffscreenRoot
+11-24 07:08:55.970  2035  2035 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{WindowToken{34bed85 type=2005 android.os.Binder@79272fc}#3617} no children}] RelativeParent to null
+11-24 07:08:55.972  2035  2035 I SurfaceFlinger: id=3617 Removed WindowToken{34bed85 type=2005 android.os.Binder@79272fc}#3617 (175)
+11-24 07:08:55.986  2035  2035 I SurfaceFlinger: destroyed WindowToken{34bed85 type=2005 android.os.Binder@79272fc}#3617 form LifecycleManager
+11-24 07:08:55.986  2035  2035 I SurfaceFlinger: id=3617 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{WindowToken{34bed85 type=2005 android.os.Binder@79272fc}#3617 !handle})
+11-24 07:08:55.988  2035  2035 I SurfaceFlinger: id=3617 Destroyed WindowToken{34bed85 type=2005 android.os.Binder@79272fc}#3617
+11-24 07:08:56.052  1161  1161 D io_stats: !@   8,0 r 2345312 45287717 w 484853 6699916 d 33137 6156484 f 14598 44450 iot 687532 0 th 0 0 0 pt 0 inp 0 0 3490.017
+11-24 07:08:56.053  1161  1161 D io_stats: !@ Read_top(KB): aat.ziraatmobil(14163) 26864 id.app.routines(7367) 3612 system_server(3332) 504
+11-24 07:08:56.053  1161  1161 D io_stats: !@ Write_top(KB): roid.honeyboard(8112) 400 system_server(3332) 240 f2fs_ckpt-254:7(1419) 228
+11-24 07:08:56.123  3332  4137 I SemWifiServiceDetector: Service det. suspended: T
+11-24 07:08:56.152  3332  3468 I ActivityManager: Changes in 10049 5 to 15, 400 to 256
+11-24 07:08:56.344  3332  3332 W AccessibilityManagerService:  wait for adding window timeout: 147
+11-24 07:08:56.347  3332  5524 D ActivityManager: unpendingScheduleServiceRestart: u=10768, drop=false
+11-24 07:08:56.349  7141  7870 I TTSDK-TTAppEventLogger: Skip flushing because global config is not fetched
+11-24 07:08:56.349  3332  5521 D FreecessController: UFZ : com.wstxda.toolkit(10768) [9507] reason: Binder(1)-android.accessibilityservice.IAccessibili
+11-24 07:08:56.349  3332  5564 W LocationManagerService: onFreezeStateChanged, uid[10768]=false
+11-24 07:08:56.349  3332  5564 I PowerManagerService: [PWL] SetWakeLockEnableDisable uid = 10768 , disable= false
+11-24 07:08:56.349  3332  5564 I PowerManagerService: [PWL] can not change uid =  10768
+11-24 07:08:56.445  7279  7279 D AppFlowHandler: checkShutUpRestore: old=in.sunilpaulmathew.ashell, new=com.samsung.android.sidegesturepad
+11-24 07:08:56.446  7279  7279 D AppFlowHandler: checkShutUpRestore: wasShutUpConfig=false, isNewAppShutUp=false, isAlreadyFrozen=false
+11-24 07:08:56.510  3332 25305 D BSOHChargingDataCollector:  BSOH Sys-servce ... 
+11-24 07:08:56.510  3332 25305 D BSOHChargingDataCollector: performBatteryWork++
+11-24 07:08:56.510  3332 25305 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@82d3121
+11-24 07:08:56.511  3332 25305 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+11-24 07:08:56.520  3332 25305 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:4.16, current:1.677343, soc:0.74, temperature:35.2, status:2, timestamp:1795493336520, voltage_chg:null}
+11-24 07:08:56.520  3332 25305 D BSOHChargingDataCollector: performBatteryWork--
+11-24 07:08:56.523  3332  5564 I NSLocationMonitor: getGPSUsingApps() called
+11-24 07:08:56.523  9698 16886 I NSLocationManager_FLP: getGPSUsingApps, No change
+11-24 07:08:56.532  3332  5564 D FreecessHandler: skipping freeze com.samsung.android.app.galaxyregistry(10345) result : 48
+11-24 07:08:56.544  3332  3468 I ActivityManager: Changes in 10345 5 to 15, 400 to 256
+11-24 07:08:56.570  2035  2111 I SurfaceFlinger: Current= 60, Period= 60, Distance= 1
+11-24 07:08:56.574  3332  4289 I Pageboost: Launcher App Execution
+11-24 07:08:56.587  2035  2111 I SurfaceFlinger: Current= 60, Period= 60, Distance= 60
+11-24 07:08:56.591  3332  3894 D InputReader: Btn_touch(4): value=0 when=3490.555618
+11-24 07:08:56.591  3332  3894 I InputReader: Touch event's action is 0x1 (id=6, t=0) [pCnt=1, s=] when=3490.555618
+11-24 07:08:56.591  3332  3332 D InputDispatcher: Inject motion (0/0): action=0x1, time=3490555618000, f=0x0, d=0 dsdx=1.000000 dtdx=0.000000
+11-24 07:08:56.592  3332  3893 I InputDispatcher: Delivering touch to (11802): action: 0x1, ab=0x0, f=0x0, d=0, '8c6f4ff', t=1 +(-1361,0)
+11-24 07:08:56.592 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: ViewPostIme pointer 1
+11-24 07:08:56.593  5284  5284 I HoneySpace.MultiFingerGestureTrailController: performClearAndDetachLocked
+11-24 07:08:56.594  5284  5284 I HoneySpace.GestureInputHandler: reset
+11-24 07:08:56.594  5284  5284 I HoneySpace.InputSession: close
+11-24 07:08:56.596  3332  3332 I SemDvfsHyPerManager: acquire hyper - GESTURE_DETECTED/3332@30, type = -999
+11-24 07:08:56.596  3332  3332 I SemDvfsHyPerManager: acquire hyper - GESTURE_DETECTED/3332@30, type = -999
+11-24 07:08:56.596  3332  3332 I SemDvfsHyPerManager: acquire hyper - SMOOTH_SCROLL/3332@28, type = -999
+11-24 07:08:56.596  1900  2053 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5653233  [3332 / 30]    HINT : GESTURE_DETECTED    list : [TIMEOUT / 836] 
+11-24 07:08:56.598  1900  2053 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5653233  [3332 / 30]    HINT : GESTURE_DETECTED    list : [TIMEOUT / 836] 
+11-24 07:08:56.618  3332  5831 D MotionRecognitionService: inject vibrator info = 0.0
+11-24 07:08:56.618  1889  1889 I sensors-hal: inject_sensor_data:433, handle:11, type:33 not supported
+11-24 07:08:56.618  1889  1889 I sensors-hal: inject_sensor_data:433, handle:11, type:33 not supported
+11-24 07:08:56.619  1889  1889 I sensors-hal: inject_sensor_data:433, handle:11, type:33 not supported
+11-24 07:08:56.627  1889  6520 I sensors-hal: handle_sns_client_event:159, auto_rotation_event_2 event,0, duration,0, ts,23763062129814, ts_diff,1635511
+11-24 07:08:56.627  1889  6520 I sensors-hal: handle_sns_client_event:164, auto_rotation_debug_2 acc,0.057,5.025,8.069, ar,0, ver,15, pedo,1,e,1,i,3
+11-24 07:08:56.627  3332  3431 D WindowOrientationListener: onSensorChanged device orientation: 0
+11-24 07:08:56.627  5001  5001 D AppController: AppControlSensorListener.onSensorChanged, Rotation: 0
+11-24 07:08:56.628  5001  5001 D NavigationBar: onRotationProposal proposedRotation=-1, isValid=false, mNavBarWindowState=WINDOW_STATE_SHOWING, rotateSuggestionsDisabled=false, isRotateButtonVisible=false
+11-24 07:08:56.628  5001  5001 D RotationButtonController@Navbar: onRotationProposal unknown rotation
+11-24 07:08:56.728  3332  4022 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+11-24 07:08:56.731  3332  6323 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 716, isSameBssidAndFreq true
+11-24 07:08:56.732  3332  4139 I SemWifiLinkQualityMonitor: Link stat: -77.0 / 173 / 0 / 1.50 (3) / 117 / 175 || 100.0 : 117.00 / 0.5 : 0.67 / 0.55 : 0.00 / G (G) || b99105e85560: 0.353 / 22.679 / N / V || N NC / 0 0 0 0 / Y 2.0 / Y -1 0.000 0.000 / Y / X 0 / 3490696 0 0 || 0.474 || 100 || Invalid
+11-24 07:08:56.755  3332  6223 I WindowManager: Relayout Window{359afb8 u0 ThumbsUpAnimationWindow}: viewVisibility=4 req=330x990 ty=2601 d0
+11-24 07:08:56.756  3332  6223 E WindowManager: win=Window{359afb8 u0 ThumbsUpAnimationWindow} destroySurfaces: appStopped=true cleanupOnResume=false win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=4 caller=com.android.server.wm.WindowManagerService.tryStartExitingAnimation:204 com.android.server.wm.WindowManagerService.relayoutWindow:1263 com.android.server.wm.Session.relayout:29 com.android.server.wm.Session.relayoutAsync2:16 android.view.IWindowSession$Stub.onTransact:918 com.android.server.wm.Session.onTransact:0 android.os.Binder.execTransactInternal:1405 
+11-24 07:08:56.756 11802 11802 I VRI[ThumbsUpAnimationWindow]@1ba53bb: Relayout returned: old=(1110,1074,1440,2064) new=(1110,1074,1440,2064) relayoutAsync=true req=(330,990)4 dur=0 res=0x0 s={false 0x0} ch=true seqId=1 syncSeqId=0
+11-24 07:08:56.758  3332  6223 I WindowManager: Relayout hash=359afb8, pid=0, syncId=-1: mAttrs={(0,1074)(330x990) gr=TOP RIGHT CENTER sim={state=hidden adjust=pan} layoutInDisplayCutoutMode=shortEdges ty=2601 fmt=TRANSLUCENT alpha=0.0
+11-24 07:08:56.758  3332  6223 I WindowManager:   fl=5000518
+11-24 07:08:56.758  3332  6223 I WindowManager:   pfl=10000050
+11-24 07:08:56.758  3332  6223 I WindowManager:   vsysui=500
+11-24 07:08:56.758  3332  6223 I WindowManager:   bhv=2
+11-24 07:08:56.758  3332  6223 I WindowManager:   fitTypes=107
+11-24 07:08:56.758  3332  6223 I WindowManager:   fitSides=0
+11-24 07:08:56.758  3332  6223 I WindowManager:   frameRateBoostOnTouch=true
+11-24 07:08:56.758  3332  6223 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0
+11-24 07:08:56.758  3332  6223 I WindowManager:   sfl=20000}
+11-24 07:08:56.770  3332  3435 I SurfaceComposerClient: apply reparent: [1813->-1] 
+11-24 07:08:56.786  2035  2035 I SurfaceFlinger: RequestedLayer [359afb8 ThumbsUpAnimationWindow#1810] hidden!! flag from(0) --> to(1) // by pid (3332)
+11-24 07:08:56.786  2035  2035 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{VRI-ThumbsUpAnimationWindow$_11802#1813} no children}] reparent to OffscreenRoot
+11-24 07:08:56.787  2035  2035 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{VRI-ThumbsUpAnimationWindow$_11802#1813} no children}] RelativeParent to null
+11-24 07:08:56.795  2035  2035 D SurfaceFlinger: Display 4630947093241269891 HWC layers:
+11-24 07:08:56.795  2035  2035 D SurfaceFlinger:        DEVICE |           18180596564041 | 00002102 | RGBA_8888    |    0.0    0.0 1440.0 3088.0 |    0    0 1440 3088 | VRI-in.sunilpaulmathew.ashell/in.sun[...]activities.aShellActivity$_4233#3699 (39)
+11-24 07:08:56.795  2035  2035 D SurfaceFlinger:        DEVICE |           34840774705427 | 00002100 | RGBA_8888    |    0.0    0.0 1440.0 2963.0 |    0  125 1440 3088 | VRI-InputMethod$_8112#3702 (9)
+11-24 07:08:56.795  2035  2035 D SurfaceFlinger:        DEVICE |           22694607193324 | 00002100 | RGBA_8888    |    0.0    0.0   80.0  260.0 | 1360 1085 1440 1345 | VRI-com.sec.android.app.launcher/com[...]el.app.CocktailBarService$_5284#3559 (1)
+11-24 07:08:56.795  2035  2035 D SurfaceFlinger:        DEVICE |           21479131447732 | 00002100 | RGBA_8888    |    0.0    0.0 1440.0   30.0 |    0 3058 1440 3088 | VRI-NavBarTouchConsumer$_5001#222 (6)
+11-24 07:08:56.795  2035  2035 D SurfaceFlinger:        DEVICE |           21479131447736 | 00002100 | RGBA_8888    |    0.0    0.0 1440.0  144.0 |    0 2944 1440 3088 | VRI-NavigationBar0$_5001#92 (349)
+11-24 07:08:56.795  2035  2035 D SurfaceFlinger:        DEVICE |           30824980283527 | 00002100 | RGBA_8888    |    0.0   22.0  164.0  164.0 |  638    0  
+11-24 07:08:56.795  2035  2035 D SurfaceFlinger: 802  142 | VRI-$_7177#167 (28)
+11-24 07:08:56.795  2035  2035 D SurfaceFlinger:        DEVICE |           31263066947592 | 00002100 | RGBA_8888    |    0.0    0.0  721.0   54.0 |  359 3034 1080 3088 | VRI-$_7279#2186 (1)
+11-24 07:08:56.795  2035  2035 D SurfaceFlinger: 
+11-24 07:08:56.937  3332 14651 D WifiConnectivityMonitor.DnsThread:  [|206] []
+11-24 07:08:56.938  3332  4171 D WifiConnectivityMonitor.NetworkStatsAnalyzer: DNS resultType : 0, responseTime : 206
+11-24 07:08:56.938  3332  4169 D OpenNetworkQos[4.00]: updateBssidLatestDnsResultType - result: 0
+11-24 07:08:56.938  3332  4169 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+11-24 07:08:56.938  3332  4169 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false[Private DNS is active. Result is ignored.]
+11-24 07:08:56.938  3332  4169 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 26 0 30 [Private DNS is active. Result is ignored.]
+11-24 07:08:56.938  3332  4169 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+11-24 07:08:56.938  3332  5619 D WifiProfileShare: nearby scanning settings stop
+11-24 07:08:56.939  3332  5619 V WifiProfileShare.Caster: checkAndGetShareData - nearby scanning
+11-24 07:08:57.076  3332  3894 D InputReader: Btn_touch(4): value=1 when=3491.040810
+11-24 07:08:57.076  3332  3894 I InputReader: Touch event's action is 0x0 (id=6, t=0) [pCnt=1, s=0.2700 ] when=3491.040810
+11-24 07:08:57.077  3332  3332 D PowerManagerService: [api] userActivity : other (uid: 1000 pid: 3332) <- onInputEventInternal() in com.android.server.accessibility.AccessibilityInputFilter:341 displayId=0 eventTime=3491040
+11-24 07:08:57.078  3332  3332 D InputDispatcher: Inject motion (0/0): action=0x0, time=3491040810000, f=0x0, d=0 dsdx=1.000000 dtdx=0.000000
+11-24 07:08:57.079  3332  3893 I InputDispatcher: Delivering touch to (11802): action: 0x0, ab=0x0, f=0x0, d=0, '8c6f4ff', t=1 +(-1361,0)
+11-24 07:08:57.080  3332  3431 I GestureDetector: obtain mCurrentDownEvent. id: 341430082 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:16 com.android.server.wm.PointerEventDispatcher.onInputEvent:50 android.view.InputEventReceiver.dispatchInputEvent:366 
+11-24 07:08:57.080  3332  3431 I GestureDetector: obtain mCurrentDownEvent. id: 341430082 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:12 com.android.server.wm.PointerEventDispatcher.onInputEvent:50 android.view.InputEventReceiver.dispatchInputEvent:366 
+11-24 07:08:57.080  3332  3893 D PowerManagerService: [api] userActivityFromNative : touch displayId=0 eventTime=3491040
+11-24 07:08:57.081  5284  5284 W HoneySpace.RecentsAnimationState: canStartSystemGesture, return true by !isOverviewDisabled
+11-24 07:08:57.081  5284  5284 I HoneySpace.MultiFingerGestureTrailController: performClearAndDetachLocked
+11-24 07:08:57.081  5284  5284 I GestureDetector: obtain mCurrentDownEvent. id: 341430082 caller: com.honeyspace.gesture.multifinger.MultiFingerGestureDetector.onTouchEvent:10 com.honeyspace.gesture.multifinger.MultiFingerGestureInputHandler.onMotionEvent:74 com.honeyspace.gesture.GestureInputHandler.onMultiFingerGestureInputEvent:46 
+11-24 07:08:57.082  5284  5284 I HoneySpace.MultiFingerGestureDetector: onDown, fingers=1
+11-24 07:08:57.082  5284  5284 I HoneySpace.GestureInputHandler: inputConsumers = [com.honeyspace.gesture.inputconsumer.InputConsumer$Companion$NO_OP$1@f2523dd]
+11-24 07:08:57.082 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: ViewPostIme pointer 0
+11-24 07:08:57.082  5284  5284 I HoneySpace.InputSession: inputConsumers = NO_OP
+11-24 07:08:57.082  5284  5284 I HoneySpace.InputSession: open
+11-24 07:08:57.084  3332  3431 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 343772685
+11-24 07:08:57.085  3332  3431 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 343772685
+11-24 07:08:57.095  5001  5001 D NavigationBar: onRotationProposal proposedRotation=-1, isValid=false, mNavBarWindowState=WINDOW_STATE_SHOWING, rotateSuggestionsDisabled=false, isRotateButtonVisible=false
+11-24 07:08:57.096  5001  5001 D RotationButtonController@Navbar: onRotationProposal unknown rotation
+11-24 07:08:57.099  3332  3894 D InputReader: Btn_touch(4): value=0 when=3491.063728
+11-24 07:08:57.099  3332  3894 I InputReader: Touch event's action is 0x1 (id=6, t=0) [pCnt=1, s=] when=3491.063728
+11-24 07:08:57.099  3332  3332 D InputDispatcher: Inject motion (0/0): action=0x1, time=3491063728000, f=0x0, d=0 dsdx=1.000000 dtdx=0.000000
+11-24 07:08:57.100  3332  3893 I InputDispatcher: Delivering touch to (11802): action: 0x1, ab=0x0, f=0x0, d=0, '8c6f4ff', t=1 +(-1361,0)
+11-24 07:08:57.100 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: ViewPostIme pointer 1
+11-24 07:08:57.100  5284  5284 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 98766221
+11-24 07:08:57.100  3332  7132 D InputDispatcher: Inject motion (11802/10333): action=0x0, time=3491040000000, f=0x20400000, d=0 dsdx=1.000000 dtdx=0.000000
+11-24 07:08:57.101  5284  5284 I HoneySpace.MultiFingerGestureTrailController: performClearAndDetachLocked
+11-24 07:08:57.101  5284  5284 I HoneySpace.GestureInputHandler: reset
+11-24 07:08:57.101  5284  5284 I HoneySpace.InputSession: close
+11-24 07:08:57.101  3332  3893 W InputDispatcher: timeSinceLastEvent wrong! eventTime=3491040000000, lastTime=3491040810000
+11-24 07:08:57.102  3332  3893 I InputDispatcher: Delivering touch to (5001): action: 0x4, ab=0x0, f=0x20400000, d=0, '29c2ea1', t=1 
+11-24 07:08:57.102  3332  3893 I InputDispatcher: Delivering touch to (5284): action: 0x4, ab=0x0, f=0x20400000, d=0, 'c7efa6c', t=1 
+11-24 07:08:57.102  3332  3893 I InputDispatcher: Delivering touch to (4233): action: 0x0, ab=0x0, f=0x20400000, d=0, '5d4acee', t=1 
+11-24 07:08:57.102  3332  3431 I GestureDetector: obtain mCurrentDownEvent. id: -658838190 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:16 com.android.server.wm.PointerEventDispatcher.onInputEvent:50 android.view.InputEventReceiver.dispatchInputEvent:366 
+11-24 07:08:57.102  3332  3431 I GestureDetector: obtain mCurrentDownEvent. id: -658838190 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:12 com.android.server.wm.PointerEventDispatcher.onInputEvent:50 android.view.InputEventReceiver.dispatchInputEvent:366 
+11-24 07:08:57.103  4233  4233 I VRI[aShellActivity]@91a29ae: ViewPostIme pointer 0
+11-24 07:08:57.104  3332  3431 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: -984238025
+11-24 07:08:57.104  3332  7132 D InputDispatcher: Inject motion (11802/10333): action=0x1, time=3491063000000, f=0x20400000, d=0 dsdx=1.000000 dtdx=0.000000
+11-24 07:08:57.104  3332  3431 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: -984238025
+11-24 07:08:57.105  3332  3893 I InputDispatcher: Delivering touch to (4233): action: 0x1, ab=0x0, f=0x20400000, d=0, '5d4acee', t=1 
+11-24 07:08:57.105  4233  4233 I VRI[aShellActivity]@91a29ae: ViewPostIme pointer 1
+11-24 07:08:57.126  4233  4233 I InputMethodManager: invalidateInput: scheduleInvalidateInput isRestartingfalse
+11-24 07:08:57.126  4233  4233 D AutofillManager: view not autofillable - not passing ime action check
+11-24 07:08:57.127  4233  4233 I ImeTracker: in.sunilpaulmathew.ashell:ea5bce01: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+11-24 07:08:57.127  4233  4233 I InputMethodManager_LC: hsifw() - flag : 0
+11-24 07:08:57.127  4233  4233 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+11-24 07:08:57.127  4233  4233 D InsetsController: hide(ime())
+11-24 07:08:57.128  4233  4233 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): ou@dabcb52
+11-24 07:08:57.130  4233  4233 D InsetsController: Setting requestedVisibleTypes to 503 (was 511)
+11-24 07:08:57.130  3332  4375 D CoreBackPreview: Window{5d4acee u0 in.sunilpaulmathew.ashell/in.sunilpaulmathew.ashell.activities.aShellActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@90b3543, mPriority=0, mIsAnimationCallback=true, mOverrideBehavior=0}
+11-24 07:08:57.130  4233  4233 I InsetsController: setRequestedVisibleTypes: visible=false, mask=ime, host=in.sunilpaulmathew.ashell/in.sunilpaulmathew.ashell.activities.aShellActivity, from=android.view.InsetsController.controlAnimationUnchecked:1712 android.view.InsetsController.applyAnimation:2359 android.view.InsetsController.applyAnimation:2284 android.view.InsetsController.hide:1645 android.view.inputmethod.InputMethodManager.setImeVisibilityOnInsetsController:3145 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:2978 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:2912 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:2873 sb0.W:50 sb0.Y:145 
+11-24 07:08:57.131  3332  6223 D InsetsSourceProvider: updateVisibility: serverVisible=true, clientVisible=false, source=InsetsSource: {3 mType=ime mFrame=[0,1956][1440,3088] mAttachedInsets=null mVisible=false mFlags= mSideHint=BOTTOM}, controlTarget=Window{5d4acee u0 in.sunilpaulmathew.ashell/in.sunilpaulmathew.ashell.activities.aShellActivity}, from=com.android.server.wm.ImeInsetsSourceProvider.updateVisibility:6 com.android.server.wm.InsetsSourceProvider.setClientVisible:9 com.android.server.wm.ImeInsetsSourceProvider.setClientVisible:18 com.android.server.wm.InsetsSourceProvider.updateClientVisibility:19 com.android.server.wm.ImeInsetsSourceProvider.updateClientVisibility:136 com.android.server.wm.InsetsStateController.onRequestedVisibleTypesChanged:49 com.android.server.wm.InsetsPolicy.onRequestedVisibleTypesChanged:2 com.android.server.wm.Session.updateRequestedVisibleTypes:41 android.view.IWindowSession$Stub.onTransact:1232 com.android.server.wm.Session.onTransact:0 
+11-24 07:08:57.131  3332  6223 I ImeTracker: system_server:cb302ebd: onRequestShow at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false displayId 0
+11-24 07:08:57.132  3332  6223 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3703)/@0x65f1dcf
+11-24 07:08:57.132  3332  6223 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{33cd708 type=2019 android.os.BinderProxy@b4b86fa}#79)/@0x3c7150f, destroy=false, surface=Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e
+11-24 07:08:57.132  5001  5105 D WindowManagerShell: PipDesktopState: isPipInDesktopMode isAnyDeskActive=false isDisplayDesktopFirst=false
+11-24 07:08:57.132  3332  6223 I WindowManager: Reparenting to leash, surface=Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e, leashParent=Surface(name=WindowToken{33cd708 type=2019 android.os.BinderProxy@b4b86fa}#79)/@0x3c7150f
+11-24 07:08:57.132 11802 12158 I SGPService: onSystemGestureExclusionChanged() IME visible
+11-24 07:08:57.132  2035  4273 I SurfaceFlinger: id=3704 createSurf, flag=24000, Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3704
+11-24 07:08:57.134  3332  6223 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3704)/@0x1e53cf9
+11-24 07:08:57.134  3332  6223 D InsetsSourceProvider: updateControlForTarget: control=InsetsSourceControl: {b6bd0001 mType=navigationBars initiallyVisible mSurfacePosition=Point(0, 2944) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0} mLeash=Surface(name=Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3704)/@0x1e53cf9}, target=Window{5d4acee u0 in.sunilpaulmathew.ashell/in.sunilpaulmathew.ashell.activities.aShellActivity}, from=com.android.server.wm.InsetsStateController.onControlTargetChanged:81 com.android.server.wm.InsetsPolicy.updateBarControlTarget:263 com.android.server.wm.DisplayPolicy.updateSystemBarAttributes:452 com.android.server.wm.InsetsStateController.onRequestedVisibleTypesChanged:103 com.android.server.wm.InsetsPolicy.onRequestedVisibleTypesChanged:2 
+11-24 07:08:57.134  3332  6223 D WindowManager: updateSystemBarAttributes: displayId=0, focusedCanBeNavColorWin=false, win=Window{5d4acee u0 in.sunilpaulmathew.ashell/in.sunilpaulmathew.ashell.activities.aShellActivity}, navColorWin=null, caller=com.android.server.wm.InsetsStateController.onRequestedVisibleTypesChanged:103 com.android.server.wm.InsetsPolicy.onRequestedVisibleTypesChanged:2 com.android.server.wm.Session.updateRequestedVisibleTypes:41 
+11-24 07:08:57.135  3332  6223 D WindowManager: updateSystemBarAttributes, bhv=1, apr=0, statusBarAprRegions=[AppearanceRegion{ bounds=[0,0][1440,3088]}], requestedVisibilities=503
+11-24 07:08:57.137  2035  2035 I SurfaceFlinger: [Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3704] attach to parent LayerHierarchy{RequestedLayerState{WindowToken{33cd708 type=2019 android.os.BinderProxy@b4b86fa}#79 parentId=22} 2 children}
+11-24 07:08:57.137  2035  2111 I SurfaceFlinger: Current= 60, Period= 60, Distance= 2
+11-24 07:08:57.137  4233  4233 D VRI[aShellActivity]@91a29ae: WindowInsets changed: ime:null 
+11-24 07:08:57.137  5284  5284 I VRI[CocktailBarService]@45fbebf: handleResized, frames=ClientWindowFrames{frame=[1360,1085][1440,1345] display=[0,0][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:57.137  5284  5284 I VRI[CocktailBarService]@45fbebf: handleResized seqId=1 mSeqId=1 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:57.138  3332  3434 V InputMethodManagerService: Client requesting input be shown
+11-24 07:08:57.138  3332  6223 I WindowManager: Relayout Window{5d4acee u0 in.sunilpaulmathew.ashell/in.sunilpaulmathew.ashell.activities.aShellActivity}: viewVisibility=0 req=1440x3088 ty=1 d0
+11-24 07:08:57.138  3332  3434 D InputMethodManagerService: ACCESS_CONTROL_ENABLED = false, ACCESS_CONTROL_KEYBOARD_BLOCK = true
+11-24 07:08:57.138 11802 11802 I VRI[ThumbsUpHandler_L]@1b81cf2: handleResized, frames=ClientWindowFrames{frame=[0,0][79,3088] display=[0,0][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:57.138 11802 11802 I VRI[ThumbsUpHandler_L]@1b81cf2: handleResized seqId=2 mSeqId=2 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:57.138  3332  3434 I ImeTracker: system_server:cb302ebd: onCancelled at PHASE_SERVER_ALREADY_VISIBLE
+11-24 07:08:57.138 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: handleResized, frames=ClientWindowFrames{frame=[1361,0][1440,3088] display=[0,0][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:57.138  8112  8112 I HBD     : c showInputView requested current = true, applyNow = true 
+11-24 07:08:57.139  7279  7279 I VRI[]@a0ecbcb: handleResized, frames=ClientWindowFrames{frame=[359,3034][1080,3088] display=[-100000,-100000][100000,100000] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:57.139  7279  7279 I VRI[]@a0ecbcb: handleResized seqId=1 mSeqId=1 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:57.139  3332  6223 I ImeTracker: system_server:194573ab: onRequestShow at ORIGIN_SERVER reason CONTROLS_CHANGED fromUser false displayId 0
+11-24 07:08:57.139 11802 11802 I VRI[ThumbsUpHandler_R]@3a7163e: handleResized seqId=72 mSeqId=72 mSyncSeqId=72 syncWithBuffers=false
+11-24 07:08:57.139  5001  5001 I VRI[NavBarTouchConsumer]@f6f11c7: handleResized, frames=ClientWindowFrames{frame=[0,3058][1440,3088] display=[0,125][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:57.139  7177  7177 I VRI[]@edcc5d0: handleResized, frames=ClientWindowFrames{frame=[638,-22][802,142] display=[-100000,-100000][100000,100000] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:57.139  5001  5001 I VRI[NavBarTouchConsumer]@f6f11c7: handleResized seqId=1 mSeqId=1 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:57.139  7177  7177 I VRI[]@edcc5d0: handleResized seqId=1 mSeqId=1 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:57.139  5001  5001 I VRI[NavigationBar0]@3043bac: handleResized, frames=ClientWindowFrames{frame=[0,2944][1440,3088] display=[0,0][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:57.139  5001  5001 I VRI[NavigationBar0]@3043bac: handleResized seqId=2 mSeqId=2 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:57.139  3332  6223 I WindowManager: Relayout hash=5d4acee, pid=4233, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=resize forwardNavigation} layoutInDisplayCutoutMode=always ty=BASE_APPLICATION wanim=0x103031a
+11-24 07:08:57.139  3332  6223 I WindowManager:   fl=81810100
+11-24 07:08:57.139  3332  6223 I WindowManager:   pfl=100008c0
+11-24 07:08:57.139  3332  6223 I WindowManager:   rh=4
+11-24 07:08:57.139  3332  6223 I WindowManager:   bhv=1
+11-24 07:08:57.139  3332  6223 I WindowManager:   fitSides=0
+11-24 07:08:57.139  3332  6223 I WindowManager:   frameRateBoostOnTouch=true
+11-24 07:08:57.139  3332  6223 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0}
+11-24 07:08:57.140  4233  4233 I InsetsController: onStateChanged: host=in.sunilpaulmathew.ashell/in.sunilpaulmathew.ashell.activities.aShellActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3319, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1440, 3088), mDisplayCutout=DisplayCutout{insets=Rect(0, 125 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(684, 0 - 756, 125), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1440 displayHeight=3088 physicalDisplayWidth=1440 physicalDisplayHeight=3088 density={3.75} cutoutSpec={M 0,0 H -9.6 V 33.33333333333333 H 9.6 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=12, center=Point(12, 12)}, RoundedCorner{position=TopRight, radius=12, center=Point(1428, 12)}, RoundedCorner{position=BottomRight, radius=12, center=Point(1428, 3076)}, RoundedCorner{position=BottomLeft, radius=12, center=Point(12, 3076)}]}  mRoundedCornerFrame=Rect(0, 0 - 1440, 3088), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1308, 0 - 1440, 125) rotation=0}, mDisplayShape=DisplayShape{type=2, displayWidth=1440, displayHeight=3088, physicalPixelDisplaySizeRatio=1.0, rotation=0, offsetX=0, offsetY=0, scale=1.0}, mSources= { InsetsSource: {b6bd0001 mType=navigationBars mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags=SUPPRESS_SCRIM mSideHint=NONE}, InsetsSource: {b6bd0004 mType=systemGestures mFrame=[0,0][45,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=LEFT}, InsetsSource: {b6bd0005 mType=mandatorySystemGestures mFrame=[0,3028][1440,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {b6bd0006 mType=tappableElement mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {b6bd0024 mType=systemGestures mFrame=[1395,0][1440,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=RIGHT}, InsetsSource: {3 mType=ime mFrame=[0,1956][1440,3088] mAttachedInsets=null mVisible=false mFlags= mSideHint=BOTTOM}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {7100000 mType=statusBars mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=false mFlags= mSideHint=TOP}, InsetsSource: {7100005 mType=mandatorySystemGestures mFrame=[0,0][1440,161] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {7100006 mType=tappableElement mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP} }
+11-24 07:08:57.140  4233  4233 I ImeTracker: system_server:194573ab: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+11-24 07:08:57.140  4233  4233 I BLASTBufferQueue_Java: update, w= 1440 h= 3088 mName = VRI[aShellActivity]@91a29ae mNativeObject= 0xb400007dab138400 sc.mNativeObject= 0xb400007e18854140 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3898 android.view.ViewRootImpl.updateRenderTargetIfNeeded:3890 android.view.ViewRootImpl.relayoutWindow:12632 android.view.ViewRootImpl.performTraversals:5287 android.view.ViewRootImpl.doTraversal:4255 android.view.ViewRootImpl$TraversalCallback.onVsync:13896 
+11-24 07:08:57.140  4233  4233 I VRI[aShellActivity]@91a29ae: Relayout returned: old=(0,0,1440,3088) new=(0,0,1440,3088) relayoutAsync=false req=(1440,3088)0 dur=3 res=0x200000 s={true 0xb400007da28c0000} ch=false seqId=1 syncSeqId=0
+11-24 07:08:57.141  4233  4233 D AutofillManager: view not autofillable - not passing ime action check
+11-24 07:08:57.144  4233  4233 I VRI[aShellActivity]@91a29ae: registerCallbackForPendingTransactions
+11-24 07:08:57.146  4233  4349 I VRI[aShellActivity]@91a29ae: mWNT: t=0xb400007db2715800 fn= 43 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:7108 android.view.ViewRootImpl$4.onFrameDraw:2700 android.view.ThreadedRenderer$1.onFrameDraw:750 
+11-24 07:08:57.146  4233  4233 D InputMethodManagerUtils: doInvalidateInput - Id : 0
+11-24 07:08:57.147  8112  8112 I InputMethodService: invalidateInputInternal: sessionId=1
+11-24 07:08:57.147  8112  8112 I InputMethodService: invalidateInputInternal: restartInput sessionId=1
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: Build configuration failed!
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: java.lang.IllegalArgumentException: Must pass in a valid surface control if only instrument surface; 
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at com.android.internal.jank.InteractionJankMonitor$Configuration.validate(InteractionJankMonitor.java:946)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at com.android.internal.jank.InteractionJankMonitor$Configuration.<init>(InteractionJankMonitor.java:882)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at com.android.internal.jank.InteractionJankMonitor$Configuration.<init>(InteractionJankMonitor.java:0)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at com.android.internal.jank.InteractionJankMonitor$Configuration$Builder.build(InteractionJankMonitor.java:852)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at com.android.internal.jank.InteractionJankMonitor.begin(InteractionJankMonitor.java:400)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at android.view.inputmethod.ImeTracker$ImeJankTracker.lambda$onRequestAnimation$0(ImeTracker.java:970)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at android.view.inputmethod.ImeTracker$ImeJankTracker$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at android.os.Handler.handleCallback(Handler.java:1095)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at android.os.Looper.loopOnce(Looper.java:321)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at android.os.Looper.loop(Looper.java:422)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at android.app.ActivityThread.main(ActivityThread.java:10616)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at java.lang.reflect.Method.invoke(Native Method)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:635)
+11-24 07:08:57.147  4233  4233 D InteractionJankMonitor: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:982)
+11-24 07:08:57.147  7148  7148 V A11yInputMethod: restartInput(): editor=android.view.inputmethod.EditorInfo@69d83d9
+11-24 07:08:57.147  7148  7148 V A11yInputMethod: CALL: onStartInput
+11-24 07:08:57.147  8112  8112 I HBD     : a extractedText.isEmpty() false, isPackageMatched():false boardConfig.keyboardBodyVisibility:true editorFieldType:UNKNOWN 
+11-24 07:08:57.147  8112  8112 I HBD     : a extractedText skip, update invalid field type 
+11-24 07:08:57.147  8112  8112 I HBD     : HoneyBoardService [IMI] onStartInput - caller pid : 4233 , caller uid : 10621 
+11-24 07:08:57.147  8112  8112 I HBD     : v updateConfigs 
+11-24 07:08:57.147  8112  8112 I HBD     : v isEnabledNightMode : true 
+11-24 07:08:57.147  8112  8112 I HBD     : a IC have been binding, RemoteInputConnection{idHash=#e117ea} 
+11-24 07:08:57.147  8112  8112 W HBD     : b [EditorInputType] undefined Enter action code : 0x40000004
+11-24 07:08:57.147  8112  8112 I HBD     : g [EditorInputType]setPrivateImeOptionsToTable privateImeOptions ( null )
+11-24 07:08:57.147  8112  8112 I HBD     : b incognitoMode : false 
+11-24 07:08:57.147  8112  8112 W HBD     : b [EditorInputType] undefined Enter action code : 0x40000004
+11-24 07:08:57.147  8112  8112 I HBD     : g getDefaultInputRange : UNKNOWN 
+11-24 07:08:57.147  8112  8112 I HBD     : g getDefaultInputRange : UNKNOWN 
+11-24 07:08:57.147  8112  8112 I HBD     : g getDefaultInputRange : UNKNOWN 
+11-24 07:08:57.148  8112  8112 I HBD     : e update cached prediction status : true 
+11-24 07:08:57.148  8112  8112 I HBD     : g getDefaultInputRange : UNKNOWN 
+11-24 07:08:57.148  8112  8112 I HBD     : a currentState : 0 
+11-24 07:08:57.148  3332  7132 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+11-24 07:08:57.148  4233  4233 I VRI[aShellActivity]@91a29ae: handleResized, frames=ClientWindowFrames{frame=[0,0][1440,3088] display=[0,0][1440,3088] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+11-24 07:08:57.148  3332  7132 D SecContentProvider: called from android.uid.honeyboard:10180
+11-24 07:08:57.148  4233  4233 I VRI[aShellActivity]@91a29ae: handleResized seqId=1 mSeqId=1 mSyncSeqId=0 syncWithBuffers=false
+11-24 07:08:57.148  3332  7132 D RestrictionPolicy: isSettingsChangesAllowedAsUser, userId 0 : true
+11-24 07:08:57.148  8112  8112 I HBD     : b [UpdatePolicy] [post] a: 0 cl: 4325376 kit: [0/0] vt: 0 ir: 1 
+11-24 07:08:57.149  3332  7132 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+11-24 07:08:57.149  3332  7132 D SecContentProvider: called from android.uid.honeyboard:10180
+11-24 07:08:57.149  3332  7132 D RestrictionPolicy: isSettingsChangesAllowedAsUser, userId 0 : true
+11-24 07:08:57.150  8112 11179 I HBD     : p updated Sub Types. Turkish 
+11-24 07:08:57.151  8112 14661 I HBD     : a InputMethodSubtype is set as local:tr 
+11-24 07:08:57.151  3332  3332 I InputMethodManagerService: subtype state: oldSubtype = android.view.inputmethod.InputMethodSubtype@420000 newSubtype = android.view.inputmethod.InputMethodSubtype@420000 force = false, intent received : false
+11-24 07:08:57.153  2035  2111 I SurfaceFlinger: Current= 60, Period= 60, Distance= 60
+11-24 07:08:57.153  3332  3435 I SurfaceComposerClient: apply reparent: [80->3704] [3703->-1] 
+11-24 07:08:57.154  4233  4233 D AutofillManager: view not autofillable - not passing ime action check
+11-24 07:08:57.170  2035  2035 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{29c2ea1 NavigationBar0#80 parentId=3704} 1 children}] reparent to LayerHierarchy{RequestedLayerState{Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3704 parentId=79} 1 children}
+11-24 07:08:57.170  2035  2035 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3703} no children}] reparent to OffscreenRoot
+11-24 07:08:57.170  2035  2035 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3703} no children}] RelativeParent to null
+11-24 07:08:57.172  3332  3435 I ImeTracker: system_server:4022b48f: onRequestShow at ORIGIN_SERVER reason CONTROLS_CHANGED fromUser false displayId 0
+11-24 07:08:57.173  3332  3434 I InsetsController: onStateChanged: host=ShowingPermanentControlTarget, from=com.android.server.wm.InsetsPolicy$ControlTarget.run:17, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1440, 3088), mDisplayCutout=DisplayCutout{insets=Rect(0, 125 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(684, 0 - 756, 125), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1440 displayHeight=3088 physicalDisplayWidth=1440 physicalDisplayHeight=3088 density={3.75} cutoutSpec={M 0,0 H -9.6 V 33.33333333333333 H 9.6 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=12, center=Point(12, 12)}, RoundedCorner{position=TopRight, radius=12, center=Point(1428, 12)}, RoundedCorner{position=BottomRight, radius=12, center=Point(1428, 3076)}, RoundedCorner{position=BottomLeft, radius=12, center=Point(12, 3076)}]}  mRoundedCornerFrame=Rect(0, 0 - 0, 0), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1308, 0 - 1440, 125) rotation=0}, mDisplayShape=DisplayShape{type=2, displayWidth=1440, displayHeight=3088, physicalPixelDisplaySizeRatio=1.0, rotation=0, offsetX=0, offsetY=0, scale=1.0}, mSources= { InsetsSource: {b6bd0001 mType=navigationBars mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags=SUPPRESS_SCRIM mSideHint=NONE}, InsetsSource: {b6bd0004 mType=systemGestures mFrame=[0,0][45,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=LEFT}, InsetsSource: {b6bd0005 mType=mandatorySystemGestures mFrame=[0,3028][1440,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM}, InsetsSource: {b6bd0006 mType=tappableElement mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE}, InsetsSource: {b6bd0024 mType=systemGestures mFrame=[1395,0][1440,3088] mAttachedInsets=null mVisible=true mFlags= mSideHint=RIGHT}, InsetsSource: {3 mType=ime mFrame=[0,1956][1440,3088] mAttachedInsets=null mVisible=false mFlags= mSideHint=BOTTOM}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {7100000 mType=statusBars mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=false mFlags= mSideHint=TOP}, InsetsSource: {7100005 mType=mandatorySystemGestures mFrame=[0,0][1440,161] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP}, InsetsSource: {7100006 mType=tappableElement mFrame=[0,0][1440,125] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP} }
+11-24 07:08:57.173  2035  5012 I SurfaceFlinger: id=3703 Removed Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3703 (175)
+11-24 07:08:57.180  8112  8112 I HBD     : a [NRIC] resetNoResponseState 
+11-24 07:08:57.180  8112  8112 I HBD     : e update cached prediction status : true 
+11-24 07:08:57.180  8112  8112 I HBD     : [WPM_CPM] b [WPM_CPM] UxWPM: 270, UxCPM: 1140, ActiveTime: 2000, UxWords: 9, UxCharacters: 38
+11-24 07:08:57.180  4233  4233 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=in.sunilpaulmathew.ashell/in.sunilpaulmathew.ashell.activities.aShellActivity
+11-24 07:08:57.180  8112  8112 I HBD     : [HitRate] b clear candidateHistory 
+11-24 07:08:57.180  8112  8112 I HBD     : [SwypeStatistics] c setOnEdit : false 
+11-24 07:08:57.180  8112  8112 I HBD     : [SwypeStatistics] c clear swypeHistory 
+11-24 07:08:57.180  8112  8112 I HBD     : f onStartInput 
+11-24 07:08:57.180  8112  8112 W HBD     : k switchToDefaultBoard : ai_writing is not bound 
+11-24 07:08:57.181  4233  4233 I ImeTracker: system_server:4022b48f: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+11-24 07:08:57.181  8112  8112 I HBD     : HoneyBoardService [PF_OP][onStartInput]  34 ms 
+11-24 07:08:57.181  8112  8112 I HBD     : HoneyBoardService onStartInputView : restarting=true, client=in.sunilpaulmathew.ashell, pid=4233 
+11-24 07:08:57.181  8112  8112 W HBD     : b [EditorInputType] undefined Enter action code : 0x40000004
+11-24 07:08:57.181  8112  8112 I HBD     : g [EditorInputType]setPrivateImeOptionsToTable privateImeOptions ( null )
+11-24 07:08:57.181  8112  8112 I HBD     : b incognitoMode : false 
+11-24 07:08:57.181  8112  8112 W HBD     : b [EditorInputType] undefined Enter action code : 0x40000004
+11-24 07:08:57.181  8112  8112 I HBD     : g getDefaultInputRange : UNKNOWN 
+11-24 07:08:57.181  8112  8784 I SemDvfsHyPerManager: acquire hyper - SKBD_RE_ENTER_SHOW/8112@1, type = -999
+11-24 07:08:57.181  8112  8112 I HBD     : g getDefaultInputRange : UNKNOWN 
+11-24 07:08:57.181  8112  8112 I HBD     : g getDefaultInputRange : UNKNOWN 
+11-24 07:08:57.181  8112  8112 I HBD     : HoneyBoardService onStartInputViewInternal: inputType=0x220001, imeOptions=0x40000004, initialSelStart=0, initialSelEnd=0 
+11-24 07:08:57.181  8112  8112 I HBD     : e applyThemesPolicy 
+11-24 07:08:57.182  1900  2053 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 32914442  [8112 / 1]    HINT : KBD_APP_RE_ENTER_VIEW    list : [TIMEOUT / 400] 
+11-24 07:08:57.182  8112  8112 I HBD     : d mIsGalaxyTheme = false mIsDexDesktopDisplay : false IsRequiredDarkTypeTheme = true night mode : true mIsEnabledHighContrast = false mIsOpenThemeForHoneyBoardInstalled = true mIsWallpaperThemeInstalled = true mIsThemeParkTheme = true
+11-24 07:08:57.182  8112  8112 I HBD     : a theme : HomeThemeLastUsed in DarkMode 
+11-24 07:08:57.182  8112  8112 I HBD     : e update KeyboardTheme themeIndex : 0x 80000000  theme :  Home Theme <open theme>
+11-24 07:08:57.182  8112  8112 I HBD     : a set Theme convertedIndex : 1 
+11-24 07:08:57.182  8112  8112 I HBD     : a onThemeChanged: currTheme = 1, nextTheme = 1 
+11-24 07:08:57.182  8112  8112 I HBD     : d onUpdate: mThemeStyle = 1 
+11-24 07:08:57.182  8112  8112 I HBD     : a ThemePark theme is updated 
+11-24 07:08:57.182  8112  8112 I HBD     : e updatePredictionStatus : 1, editorOpt 
+11-24 07:08:57.182  8112  8112 I HBD     : e updateForEditorClass isPredictionOn = true 
+11-24 07:08:57.183  8112  8983 I HBD     : f EBD tb start :1 
+11-24 07:08:57.183  8112  8983 I HBD     : f EBD tb end :1 
+11-24 07:08:57.184  8112  8112 I HBD     : d0 [EmojiCandidate] getEmoji from EmojiCore-[0]
+11-24 07:08:57.184  8112  8112 I HBD     : y0 [SCV] (9) 3 3 4 3 2 2 1 4 3 
+11-24 07:08:57.184  8112  8112 I HBD     : c setCandidates count=9, hasObservers=true 
+11-24 07:08:57.184  8112  8112 I HBD     : [HitRate] b candidateHistory size = 1 
+11-24 07:08:57.184  8112  8112 I HBD     : f EBD ssu f 1 
+11-24 07:08:57.185  3332  7132 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+11-24 07:08:57.185  3332  7132 D SecContentProvider: called from android.uid.honeyboard:10180
+11-24 07:08:57.185  3332  7132 D RestrictionPolicy: isSettingsChangesAllowedAsUser, userId 0 : true
+11-24 07:08:57.185  8112  8112 I HBD     : b [UpdatePolicy] [post] a: 1 cl: 4325376 kit: [0/0] vt: 0 ir: 1 
+11-24 07:08:57.185  8112  8112 I HBD     : e update cached prediction status : true 
+11-24 07:08:57.185  3332  7132 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+11-24 07:08:57.185  3332  7132 D SecContentProvider: called from android.uid.honeyboard:10180
+11-24 07:08:57.185  3332  7132 D RestrictionPolicy: isSettingsChangesAllowedAsUser, userId 0 : true
+11-24 07:08:57.186  8112  8112 I HBD     : b updateConfig: [LanguageItem] Turkish / [KeyboardViewTypeItem] 0 / [KeyboardInputTypeItem] mainType(0), subType(0) / [CurrentLanguageInputTypeItem] mainType(0), subType(0) / [KeyboardInputRangeItem] 1 / [SelectedLanguageItem] 2 / [TextOrNullInputClassItem] true / [NumberKeyFirstLineItem] true / [SpaceRowStyleCmItem] true / [SpaceRowStylePeriodItem] true / [SpaceRowStyleEmailURLPeriodItem] true /  
+11-24 07:08:57.186  8112  8112 I HBD     : b updateConfig: [SpaceRowStyleEmailURLDotComItem] true / [SpaceRowStyleEmailURLPeriodItem] true / [SpaceRowStyleJapaneseArrowItem] true / [SpaceRowStyleJapanesePeriodItem] true / [TouchAndHoldSpaceBarTypeItem] cursor_control / [UseToolBarItem] true / [VoiceInputTypeItem] 1 / [DensityItem] 3.0 / [DisplayWidthItem] 1440 / [DisplayHeightItem] 3088 / [MainTextLabelItem] 1 /  
+11-24 07:08:57.186  8112 11179 I HBD     : p updated Sub Types. Turkish 
+11-24 07:08:57.186  8112  8112 I HBD     : b updateConfig: [LanguageSwitchingUsingSpaceBarItem] true / [VoiceEnabledItem] true / [PredictionStatusItem] true / [EditorEnterActionItem] -1 /  
+11-24 07:08:57.186  8112  8112 I HBD     : e update cached prediction status : true 
+11-24 07:08:57.186  8112  8112 I HBD     : c IIFO[r:1852be0ef8][type:finish] 
+11-24 07:08:57.186  8112 11179 I HBD     : b getET , flag: 1 , start: 0 , end: 0 , length: 0 , composingLength: 0 , isKCC: false
+11-24 07:08:57.187  2035  2035 I SurfaceFlinger: destroyed Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3703 form LifecycleManager
+11-24 07:08:57.187  2035  2035 I SurfaceFlinger: id=3703 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3703 !handle})
+11-24 07:08:57.187  8112  8112 I HBD     : e [SKE_LM] disableTags : id:en_US
+11-24 07:08:57.187  8112  8112 I HBD     : e [SKE_LM] enable notTaggedWith:id:en_US, emoji
+11-24 07:08:57.187  8112 14665 I HBD     : a InputMethodSubtype is set as local:tr 
+11-24 07:08:57.187  3332  3332 I InputMethodManagerService: subtype state: oldSubtype = android.view.inputmethod.InputMethodSubtype@420000 newSubtype = android.view.inputmethod.InputMethodSubtype@420000 force = false, intent received : false
+11-24 07:08:57.188  2035  2035 I SurfaceFlinger: id=3703 Destroyed Surface(name=29c2ea1 NavigationBar0#80)/@0x42eba6e - animation-leash of insets_animation#3703
+11-24 07:08:57.189  8112  8112 I HBD     : k skip stepBilingualPrediction prediction 
+11-24 07:08:57.190  8112  8112 I HBD     : e [SKE_LM] enable notTaggedWith:emoji, zh, yue_HK, nan_TW
+11-24 07:08:57.190  8112  8112 I HBD     : a sendAction action : 1 / modified action : 1 
+11-24 07:08:57.190  8112  8112 I HBD     : b execute visibility=false 
+11-24 07:08:57.190  8112  8112 W HBD     : c3 Engine Sync Finished by onStartInputView, check InputKey timing 
+11-24 07:08:57.190  8112  8112 I HBD     : f EBD si t 0 
+11-24 07:08:57.190  8112  8112 I HBD     : a updateMultiTapTimeValue 
+11-24 07:08:57.190  8112  8112 I HBD     : a getMultiTapTimeoutValue 
+11-24 07:08:57.190  8112 14667 I HBD     : a [HBIC] requestCursorUpdates 2 
+11-24 07:08:57.191  8112  8112 I HBD     : a getSingleVowelMultiTapTimeoutValue 
+11-24 07:08:57.191  8112 14667 I HBD     : a requestCursorUpdates returned  true ,  1
+11-24 07:08:57.191  8112  8112 I HBD     : [HitRate] b clear candidateHistory 
+11-24 07:08:57.191  8112  8112 I HBD     : [SwypeStatistics] c setOnEdit : false 
+11-24 07:08:57.191  8112  8112 I HBD     : [SwypeStatistics] c clear swypeHistory 
+11-24 07:08:57.191  8112  8112 I HBD     : a [AiWriter] determineTranslateLanguage
+11-24 07:08:57.191  8112  8112 I HBD     : a [AiWriter] chat translation null isTranslationClosed : false lang :  restarting : true hash : 376182837 is from translation : false
+11-24 07:08:57.191  8112  8112 I HBD     : a sendAction action : 26 / modified action : 26 
+11-24 07:08:57.191  8112  8112 I HBD     : b execute visibility=false 
+11-24 07:08:57.191  3332  7132 W ActivityManager: Receiver with filter android.content.IntentFilter@609264a already registered for pid 8112, callerPackage is com.samsung.android.honeyboard
+11-24 07:08:57.192  8112  8112 I HBD     : f [PF_OP][onStartInputViewActivate]  0 ms 
+11-24 07:08:57.192  8112  8112 I HBD     : MultiModal MultiModalSwitcher onStartInputView 
+11-24 07:08:57.192  8112  8112 I HBD     : [KeysCafeStatistics] a isPersonalDataCollectable true 
+11-24 07:08:57.193  8112  8112 I HBD     : HoneyBoardService [PF_OP][onStartInputView]  12 ms 
+11-24 07:08:57.193  8112  8112 I HBD     : [DirectWriting] DirectWriting emitInputConnection : RemoteInputConnection{idHash=#e117ea} 
+11-24 07:08:57.194  8112  8112 I HBD     : c updateCandidates count=9 
+11-24 07:08:57.194  8112  8112 I HBD     : c skip updateCandidates 
+11-24 07:08:57.194  8112  8112 I HBD     : b candidateContainerVisibility=false 
+11-24 07:08:57.195  7020  9154 W MediaProvider: isAppCloneUserPair for user 0: false
+11-24 07:08:57.195  8112  8112 I HBD     : b candidateContainerVisibility=false 
+11-24 07:08:57.198  3332  6223 D SecContentProvider: query(), uri = 15 selection = isClipboardAllowedAsUser
+11-24 07:08:57.198  3332  6223 D SecContentProvider: called from android.uid.honeyboard:10180
+11-24 07:08:57.198  3332  6223 D RestrictionPolicy: isClipboardAllowed : true
+11-24 07:08:57.198  3332  6223 D SecContentProvider: SemKnoxPolicyContract.RestrictionPolicy.CLIPBOARD_ALLOWED_AS_USER return = true
+11-24 07:08:57.198 22305 22320 I SamsungAccount: [AccountManagerProvider] isChildAccount
+11-24 07:08:57.198 22305 22320 I SamsungAccount: [AccountContextResolverImpl] isWorkProfile: false requestedAccountType:null targetUserId: null currentUserId: 0
+11-24 07:08:57.198 22305 22320 I SamsungAccount: [AccountManagerProvider] Calling package : android.honeyboard.
+11-24 07:08:57.200  8112  9965 I ScsApi@Feature: checkFeature() : FEATURE_SPEECH_RECOGNITION, sdk : 4.0.68
+11-24 07:08:57.200  8112  9965 I ScsApi@FeatureHolder: setStatus() : FEATURE_SPEECH_RECOGNITION : 0
+11-24 07:08:57.200  8112  9965 I HBD     : j HoneyVoice checkFeature() 0 time: 0
+11-24 07:08:57.200  8112  9965 I HBD     : a HoneyVoice isSCSSpeechFeatureEnabled : true 0 ms 
+11-24 07:08:57.200 22305 22320 I SamsungAccount: [SignatureInfoDbHelper] searchOnUser(fromDb) - [10/lfgff][android.honeyboard.][64/3291d] => matched
+11-24 07:08:57.200 22305 22320 I SamsungAccount: [AccountManagerProvider] This is the access of the allowed application
+11-24 07:08:57.202 22305 22320 I SamsungAccount: [TelephonyManagerUtil] getMccFromUsim
+11-24 07:08:57.202 22305 22320 I SamsungAccount: [MccManager] saveMccToPreference Start
+11-24 07:08:57.202 22305 22320 I SamsungAccount: [MccManager] saveMccToPreference, mcc is same with previous mcc
+11-24 07:08:57.203 22305 22320 I SamsungAccount: [ChildAccountSupportedListManager] getSupportedListFromLocal from cache
+11-24 07:08:57.204  4233  4233 D AutofillManager: view not autofillable - not passing ime action check
+11-24 07:08:57.204 22305 22320 I SamsungAccount: [TelephonyManagerUtil] getMccFromUsim
+11-24 07:08:57.204 22305 22320 I SamsungAccount: [MccManager] saveMccToPreference Start
+11-24 07:08:57.204 22305 22320 I SamsungAccount: [MccManager] saveMccToPreference, mcc is same with previous mcc
+11-24 07:08:57.204 22305 22320 I SamsungAccount: [FamilyGroupUtil] meetKoreaCountryCondition(beforeSignUp=false): false
+11-24 07:08:57.204 22305 22320 I SamsungAccount: [ChildAccountSupportedListManager] getSupportedListFromLocal from cache
+11-24 07:08:57.205 22305 22320 I SamsungAccount: [TelephonyManagerUtil] getMccFromUsim
+11-24 07:08:57.205 22305 22320 I SamsungAccount: [MccManager] saveMccToPreference Start
+11-24 07:08:57.205 22305 22320 I SamsungAccount: [MccManager] saveMccToPreference, mcc is same with previous mcc
+11-24 07:08:57.205 22305 22320 I SamsungAccount: [FamilyGroupUtil] signUpMcc mismatched
+11-24 07:08:57.205 22305 22320 I SamsungAccount: [FamilyGroupUtil] meetServerCountryCondition(beforeSignUp=false): false
+11-24 07:08:57.205 22305 22320 I SamsungAccount: [FamilyGroupUtil] isSupportFamilyService: false
+11-24 07:08:57.205 22305 22320 I SamsungAccount: [B2cAccountMethodExecutor] makeResultBundle - resultCode : 1
+11-24 07:08:57.218  3332  6223 D SyncManager: userId - 0 auto - true
+11-24 07:08:57.240  7279  7279 D AppFlowHandler: checkShutUpRestore: old=com.samsung.android.sidegesturepad, new=in.sunilpaulmathew.ashell
+11-24 07:08:57.241  7279  7279 D AppFlowHandler: checkShutUpRestore: wasShutUpConfig=false, isNewAppShutUp=false, isAlreadyFrozen=false
